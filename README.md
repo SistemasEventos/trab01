@@ -6,7 +6,7 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Guilherme Bodart: guilhermebodart73@gmail.com <br>
-segundo_componente_do_grupo:email_segundo_componente@dominio.com<br>
+Harã Heique: heikacademicos@hotmail.com <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
