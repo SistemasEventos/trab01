@@ -17,14 +17,29 @@ Este documento contém a especificação do projeto do banco de dados <nome do p
 
 Sistema de eventos
 
-O sistema consiste em divulgar eventos em geral na região da Grande Vitória. Esses eventos são de qualquer meio social, o qual traz maior diversidade na aplicação. Como consequência do bom uso do sistema, as organizadoras de eventos terão menores custos com publicidade (outdoors, panfletos, jornais, comerciais de TV e afins). <br>
-O público-alvo do sistema são as organizadoras, empresas e pessoas que desejam divulgar seus eventos, além do público que tem interesse em ir aos eventos divulgados. <br>
-A proposta é que o sistema possua aplicação em plataforma web e mobile, principalmente em aparelhos portáteis (smartphones, tablets e afins) devido o crescimento espontâneo no seu consumo e na maior flexibilidade no uso do sistema. <br>
-Para que as organizadoras de eventos utilizem o sistema devem fazer uma contratação por um determinado período, onde podem ser feitas renovações. Após isso o evento é divulgado por meio do sistema até o fim de seu contrato. Importante citar que a organizadora em que é prestado o serviço tem o total direito de divulgar o evento da maneira desejada e atualizar informações sempre que necessário. <br>
-Por outro lado, o público interessado nos eventos possuem cadastro que é diferente das organizadoras, dado que seu intuito é ir aos eventos. Além disso o cadastro é grátis, o qual eles possuem uma gama de atrações com todas as informações disponibilizadas pelas organizadoras. Esse tipo de usuário do sistema tem a permissão de selecionar na sua lista desejados, onde fica atualizado sobre todas as informações, inclusive recebem notificações caso haja alterações por eventualidades. Além disso, podem utilizar a “mini rede social”, cujo objetivo
-principal são as interações entre os usuários do sistema. Nele há a possibilidade
-adicionar usuários com o mesmo nome de cadastro, onde proporciona relações
-entre eles e também identificação em quais eventos possivelmente estarão. <br>
+O sistema consiste em divulgar eventos em geral na região da Grande
+Vitória. Esses eventos são de qualquer meio social, o qual traz maior diversidade na
+aplicação. Como consequência do bom uso do sistema, as organizadoras de
+eventos terão menores custos com publicidade (outdoors, panfletos, jornais,
+comerciais de TV e afins).
+O público-alvo do sistema são as organizadoras, empresas e pessoas que
+desejam divulgar seus eventos, além do público que tem interesse em ir aos
+eventos divulgados.
+A proposta é que o sistema possua aplicação em plataforma web e mobile
+devido a grande popularidade e na maior flexibilidade no uso do sistema.
+Para que as organizadoras de eventos utilizem o sistema devem se cadastrar
+numa conta chamada premium realizando a contratação, o qual são escolhidos o
+período, quantidade de eventos que podem ser divulgados simultaneamente e
+forma de pagamento. A organizadora tem o total direito de divulgar os eventos da
+maneira desejada e atualizar informações sempre que necessário.
+Por outro lado, o público interessado nos eventos possuem cadastro diferente
+das organizadoras, que é chamada conta normal, dado que seu intuito é ir aos
+eventos. Além disso o cadastro é grátis, o qual eles possuem uma gama de
+atrações com todas as informações disponibilizadas pelas organizadoras. Podem
+selecionar eventos na sua lista de favoritos, onde fica atualizado sobre todas as
+informações, inclusive recebem notificações caso haja alterações por
+eventualidades. Além disso, há possibilidades da integração de uma “mini rede
+social”, cujo objetivo principal são as interações entre os usuários do sistema.
 O sistema é promissor devido o contexto em que vivemos atualmente, onde
 os aparelhos mobile juntamente com os aplicativos da plataforma ganham força
 cada vez mais no mercado. Além disso, com o apoio contínuo das organizadoras
