@@ -10,8 +10,7 @@ Harã Heique: heikacademicos@hotmail.com <br>
 Edmilton Junior: junior_edmilton@outlook.com <br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
-<br>e motivação da escolha realizada. <br>
+O objetivo principal é divulgar eventos e "baladas" de qualquer tipo/gênero, porém de maneira especial, dado que existem redes sociais que já realizam isso (Facebook). No caso seriam feitas notificações e uma "mini rede social", o qual poderiam ser adicionados amigos e auxiliar ainda mais nas notificações. Entretanto o intuito é a divulgação de forma mais eficaz possível para auxiliar pessoas de qualquer meio social, seja ele acadêmico, religioso, festeiro entre outros. A ideia de implementar a "mini rede social" é para o sistema tenha uma interação entre as pessoas do meio social em que pertence, o qual proporciona tanto dar mais "vida" ao sistema quanto aumentar sua funcionalidade. Isso acaba sendo algo promissor, pois não precisa de mostrar estimativas para demonstrar o sucesso que redes sociais possuem.
 
 ### 3.MINI-MUNDO<br>
 
