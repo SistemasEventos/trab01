@@ -122,7 +122,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
 ![Alt text](https://s1.postimg.org/2qrxwhyazj/modelo_Logico.png?raw=true "Modelo Conceitual")
-![Alt text](https://s1.postimg.org/2z8xet5am7/modelo_Conceitual.png?raw=true "Modelo Conceitual")
+        ![Alt text](https://s1.postimg.org/2z8xet5am7/modelo_Conceitual.png?raw=true "Modelo Conceitual")
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
