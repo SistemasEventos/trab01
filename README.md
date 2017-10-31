@@ -99,7 +99,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
-    [Grupo02]: Hugo Ramalho, Maria Luiza e Vitor Salzman
+    RodoBus: Hugo Ramalho, Maria Luiza e Vitor Salzman
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
