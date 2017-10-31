@@ -98,8 +98,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+    [Grupo01]: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
+    [Grupo02]: Hugo Ramalho, Maria Luiza e Vitor Salzman
 
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
@@ -128,6 +128,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..)
+        Upado o arquivo com nome: ModeloFisico.sql
           
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
