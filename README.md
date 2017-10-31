@@ -76,7 +76,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     * Locais(cidade, bairro e etc) de eventos mais favoritados; <br>
     * Preços de eventos mais procurados pelos usuários conta normal; <br>
     * Relação da quantidade de pessoas por sexo que favoritam os eventos por gênero; <br>
-    * Tipo de busca de eventos mais realizada(por gênero, localização, nome, data ou preço)<br>;
+    * Tipo de busca de eventos mais realizada(por gênero, localização, nome, data ou preço);
     * Estatística de buscas de eventos(mensalmente e anualmente)<br>;
     
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
