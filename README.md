@@ -67,17 +67,17 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     Relatório de eventos realizados no mês, ano com local, horário, preço, gênero e eventos a acontecer.
     
     b) Crie uma lista com os 10 principais relatórios que podero ser obtidos por meio do sistema proposto!
-    Relatórios: <br>
-    * Histórico de eventos favoritados destinado para os usuários conta normal(desejam participar do evento) que se renova anualmente; <br>
-    * Quantidade favoritos para cada evento divulgado pelas organizadoras; <br>
-    * Quantidade de usuários conta normal, conta premium pessoa física e conta premium pessoa jurídica; <br>
-    * Modelo de contratos mais requisitados; <br>
-    * Gêneros de eventos mais requisitados pelos usuários conta normal; <br>
-    * Locais(cidade, bairro e etc) de eventos mais favoritados; <br>
-    * Preços de eventos mais procurados pelos usuários conta normal; <br>
-    * Relação da quantidade de pessoas por sexo que favoritam os eventos por gênero; <br>
+    Relatórios:
+    * Histórico de eventos favoritados destinado para os usuários conta normal(desejam participar do evento) que se renova anualmente;
+    * Quantidade favoritos para cada evento divulgado pelas organizadoras;
+    * Quantidade de usuários conta normal, conta premium pessoa física e conta premium pessoa jurídica;
+    * Modelo de contratos mais requisitados;
+    * Gêneros de eventos mais requisitados pelos usuários conta normal;
+    * Locais(cidade, bairro e etc) de eventos mais favoritados;
+    * Preços de eventos mais procurados pelos usuários conta normal;
+    * Relação da quantidade de pessoas por sexo que favoritam os eventos por gênero;
     * Tipo de busca de eventos mais realizada(por gênero, localização, nome, data ou preço);
-    * Estatística de buscas de eventos(mensalmente e anualmente)<br>;
+    * Estatística de buscas de eventos(mensalmente e anualmente);
     
 >## Marco de Entrega 01 em: (Data definida no cronograma)<br>
 
