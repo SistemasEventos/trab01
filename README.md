@@ -109,7 +109,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
     
-    Upado arquivo com a descrição do projeto com o nome: Descrição do Projeto
+    Upado arquivo com a descrição do projeto com o nome: Descricao_do_projeto
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
