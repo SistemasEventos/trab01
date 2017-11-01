@@ -108,6 +108,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
+    
+    Upado arquivo com a descrição do projeto com o nome: Descrição do Projeto
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
