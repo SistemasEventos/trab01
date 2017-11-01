@@ -109,7 +109,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     pode possuir para cada departamento mais de uma localização... 
     b) justifique!
     
-    Upado arquivo com a descrição do projeto com o nome: Descricao_do_projeto
+    Upado arquivo com a descrição do projeto com o nome: Descricao_do_Projeto.docx
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
@@ -117,7 +117,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
-
+    
+    Upado arquivo com a descrição dos dados com o nome: Descricao_dos_Dados.docx
 
 ### 6	MODELO LÓGICO<br>
         a) inclusão do modelo lógico do banco de dados
