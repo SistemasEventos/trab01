@@ -131,6 +131,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ### 7	MODELO FÍSICO<br>
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..)
+        
         Upado o arquivo com nome: ModeloFisico.sql
           
         
