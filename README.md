@@ -98,7 +98,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         
     
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
+    Mapa de Ocorrencias: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
     RodoBus: Hugo Ramalho, Maria Luiza e Vitor Salzman
 
 #### 5.2 DECISÕES DE PROJETO
