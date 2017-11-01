@@ -124,7 +124,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
-![Alt text](https://s1.postimg.org/2qrxwhyazj/modelo_Logico.png?raw=true "Modelo Lógico")
+![Alt text](https://image.ibb.co/eiqKLw/Modelo_Logico.png?raw=true "Modelo Lógico")
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
