@@ -156,7 +156,7 @@ CREATE TABLE Classificacao (
 );
 
 CREATE TABLE Estado (
-    idCidade SERIAL PRIMARY KEY,
+    idEstado SERIAL PRIMARY KEY,
     local VARCHAR(50)
 );
 
@@ -166,7 +166,7 @@ CREATE TABLE Bairro (
 );
 
 CREATE TABLE Cidade (
-    idEstado SERIAL PRIMARY KEY,
+    idCidade SERIAL PRIMARY KEY,
     UF CHAR(2)
 );
 
@@ -187,9 +187,9 @@ CREATE TABLE Periodo (
 
 CREATE TABLE esta_Localizacao_Cidade_Bairro_Estado (
     FK_Localizacao_idLocal SERIAL,
-    FK_Cidade_idEstado SERIAL,
+    FK_Cidade_idCidade SERIAL,
     FK_Bairro_idBairro SERIAL,
-    FK_Estado_idCidade SERIAL
+    FK_Estado_idEstado SERIAL
 );
 
 CREATE TABLE e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos (
@@ -334,8 +334,8 @@ ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localiz
     ON DELETE NO ACTION ON UPDATE NO ACTION;
  
 ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localizacao_Cidade_Bairro_Estado_1
-    FOREIGN KEY (FK_Cidade_idEstado)
-    REFERENCES Cidade (idEstado)
+    FOREIGN KEY (FK_Cidade_idCidade)
+    REFERENCES Cidade (idCidade)
     ON DELETE RESTRICT ON UPDATE RESTRICT;
  
 ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localizacao_Cidade_Bairro_Estado_2
@@ -344,8 +344,8 @@ ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localiz
     ON DELETE RESTRICT ON UPDATE RESTRICT;
  
 ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localizacao_Cidade_Bairro_Estado_3
-    FOREIGN KEY (FK_Estado_idCidade)
-    REFERENCES Estado (idCidade)
+    FOREIGN KEY (FK_Estado_idEstado)
+    REFERENCES Estado (idEstado)
     ON DELETE RESTRICT ON UPDATE RESTRICT;
  
 ALTER TABLE e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos ADD CONSTRAINT FK_e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos_0
