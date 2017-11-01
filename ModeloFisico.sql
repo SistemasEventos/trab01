@@ -157,7 +157,7 @@ CREATE TABLE Classificacao (
 
 CREATE TABLE Estado (
     idEstado SERIAL PRIMARY KEY,
-    local VARCHAR(50)
+    UF CHAR(3)
 );
 
 CREATE TABLE Bairro (
@@ -167,7 +167,7 @@ CREATE TABLE Bairro (
 
 CREATE TABLE Cidade (
     idCidade SERIAL PRIMARY KEY,
-    UF CHAR(2)
+    Local VARCHAR(50)
 );
 
 CREATE TABLE EventosSimultaneos (
