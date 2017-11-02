@@ -54,7 +54,10 @@ CREATE TABLE Juridica (
 
 CREATE TABLE Contrato (
     idContrato SERIAL PRIMARY KEY,
-    dataInicial DATE
+    dataInicial DATE,
+    FK_Periodo_idPeriodo SERIAL,
+    FK_Pagamento_idPagamento SERIAL,
+    FK_EventosSimultaneos_idEventosSimult SERIAL
 );
 
 CREATE TABLE Favorita_gratis_favorita (
@@ -100,9 +103,12 @@ CREATE TABLE contatos_pontosVenda_tem (
 
 CREATE TABLE Localizacao (
     numero INT,
-    rua VARCHAR(50),
+    cep VARCHAR(20),
     idLocal SERIAL PRIMARY KEY,
-    cep VARCHAR(20)
+    rua VARCHAR(50),
+    FK_Cidade_idCidade SERIAL,
+    FK_Bairro_idBairro SERIAL,
+    FK_Estado_idEstado SERIAL
 );
 
 CREATE TABLE evento_local_acontece (
@@ -184,20 +190,6 @@ CREATE TABLE Periodo (
     idPeriodo SERIAL PRIMARY KEY,
     meses INT
 );
-
-CREATE TABLE esta_Localizacao_Cidade_Bairro_Estado (
-    FK_Localizacao_idLocal SERIAL,
-    FK_Cidade_idCidade SERIAL,
-    FK_Bairro_idBairro SERIAL,
-    FK_Estado_idEstado SERIAL
-);
-
-CREATE TABLE e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos (
-    FK_Pagamento_idPagamento SERIAL,
-    FK_Contrato_idContrato SERIAL,
-    FK_Periodo_idPeriodo SERIAL,
-    FK_EventosSimultaneos_idEventosSimult SERIAL
-);
  
 ALTER TABLE Conta ADD CONSTRAINT FK_Conta_1
     FOREIGN KEY (FK_TipoConta_idTconta)
@@ -254,6 +246,21 @@ ALTER TABLE Juridica ADD CONSTRAINT FK_Juridica_1
     REFERENCES Premium (FK_Cliente_idUser)
     ON DELETE CASCADE ON UPDATE CASCADE;
  
+ALTER TABLE Contrato ADD CONSTRAINT FK_Contrato_1
+    FOREIGN KEY (FK_Periodo_idPeriodo)
+    REFERENCES Periodo (idPeriodo)
+    ON DELETE CASCADE ON UPDATE CASCADE;
+ 
+ALTER TABLE Contrato ADD CONSTRAINT FK_Contrato_2
+    FOREIGN KEY (FK_Pagamento_idPagamento)
+    REFERENCES Pagamento (idPagamento)
+    ON DELETE CASCADE ON UPDATE CASCADE;
+ 
+ALTER TABLE Contrato ADD CONSTRAINT FK_Contrato_3
+    FOREIGN KEY (FK_EventosSimultaneos_idEventosSimult)
+    REFERENCES EventosSimultaneos (idEventosSimult)
+    ON DELETE CASCADE ON UPDATE CASCADE;
+ 
 ALTER TABLE Favorita_gratis_favorita ADD CONSTRAINT FK_Favorita_gratis_favorita_0
     FOREIGN KEY (FK_Gratis_FK_Cliente_idUser)
     REFERENCES Gratis (FK_Cliente_idUser);
@@ -302,6 +309,21 @@ ALTER TABLE contatos_pontosVenda_tem ADD CONSTRAINT FK_contatos_pontosVenda_tem_
     FOREIGN KEY (FK_PontoVenda_idPontoVenda)
     REFERENCES PontoVenda (idPontoVenda);
  
+ALTER TABLE Localizacao ADD CONSTRAINT FK_Localizacao_1
+    FOREIGN KEY (FK_Cidade_idCidade)
+    REFERENCES Cidade (idCidade)
+    ON DELETE CASCADE ON UPDATE CASCADE;
+ 
+ALTER TABLE Localizacao ADD CONSTRAINT FK_Localizacao_2
+    FOREIGN KEY (FK_Bairro_idBairro)
+    REFERENCES Bairro (idBairro)
+    ON DELETE CASCADE ON UPDATE CASCADE;
+ 
+ALTER TABLE Localizacao ADD CONSTRAINT FK_Localizacao_3
+    FOREIGN KEY (FK_Estado_idEstado)
+    REFERENCES Estado (idEstado)
+    ON DELETE CASCADE ON UPDATE CASCADE;
+ 
 ALTER TABLE evento_local_acontece ADD CONSTRAINT FK_evento_local_acontece_1
     FOREIGN KEY (FK_Localizacao_idLocal)
     REFERENCES Localizacao (idLocal);
@@ -326,44 +348,4 @@ ALTER TABLE evento_genero_possui ADD CONSTRAINT FK_evento_genero_possui_1
 ALTER TABLE Lote ADD CONSTRAINT FK_Lote_1
     FOREIGN KEY (FK_Ingresso_idIngresso)
     REFERENCES Ingresso (idIngresso)
-    ON DELETE RESTRICT ON UPDATE RESTRICT;
- 
-ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localizacao_Cidade_Bairro_Estado_0
-    FOREIGN KEY (FK_Localizacao_idLocal)
-    REFERENCES Localizacao (idLocal)
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
- 
-ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localizacao_Cidade_Bairro_Estado_1
-    FOREIGN KEY (FK_Cidade_idCidade)
-    REFERENCES Cidade (idCidade)
-    ON DELETE RESTRICT ON UPDATE RESTRICT;
- 
-ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localizacao_Cidade_Bairro_Estado_2
-    FOREIGN KEY (FK_Bairro_idBairro)
-    REFERENCES Bairro (idBairro)
-    ON DELETE RESTRICT ON UPDATE RESTRICT;
- 
-ALTER TABLE esta_Localizacao_Cidade_Bairro_Estado ADD CONSTRAINT FK_esta_Localizacao_Cidade_Bairro_Estado_3
-    FOREIGN KEY (FK_Estado_idEstado)
-    REFERENCES Estado (idEstado)
-    ON DELETE RESTRICT ON UPDATE RESTRICT;
- 
-ALTER TABLE e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos ADD CONSTRAINT FK_e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos_0
-    FOREIGN KEY (FK_Pagamento_idPagamento)
-    REFERENCES Pagamento (idPagamento)
-    ON DELETE RESTRICT ON UPDATE RESTRICT;
- 
-ALTER TABLE e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos ADD CONSTRAINT FK_e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos_1
-    FOREIGN KEY (FK_Contrato_idContrato)
-    REFERENCES Contrato (idContrato)
-    ON DELETE NO ACTION ON UPDATE NO ACTION;
- 
-ALTER TABLE e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos ADD CONSTRAINT FK_e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos_2
-    FOREIGN KEY (FK_Periodo_idPeriodo)
-    REFERENCES Periodo (idPeriodo)
-    ON DELETE RESTRICT ON UPDATE RESTRICT;
- 
-ALTER TABLE e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos ADD CONSTRAINT FK_e_composto_Pagamento_Contrato_Periodo_EventosSimultaneos_3
-    FOREIGN KEY (FK_EventosSimultaneos_idEventosSimult)
-    REFERENCES EventosSimultaneos (idEventosSimult)
     ON DELETE RESTRICT ON UPDATE RESTRICT;
