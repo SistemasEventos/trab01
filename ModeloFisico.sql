@@ -33,7 +33,8 @@ CREATE TABLE Evento (
 
 CREATE TABLE Ingresso (
     idIngresso SERIAL PRIMARY KEY,
-    FK_Classificacao_idClassif SERIAL
+    FK_Classificacao_idClassif SERIAL,
+    FK_Evento_idEvento SERIAL
 );
 
 CREATE TABLE PontoVenda (
@@ -64,11 +65,6 @@ CREATE TABLE Favorita_gratis_favorita (
     data_favoritado DATE,
     FK_Gratis_FK_Cliente_idUser SERIAL,
     FK_Evento_idEvento SERIAL
-);
-
-CREATE TABLE ingresso_evento_possui (
-    FK_Evento_idEvento SERIAL,
-    FK_Ingresso_idIngresso SERIAL
 );
 
 CREATE TABLE evento_pontosVendas_possui (
@@ -231,6 +227,11 @@ ALTER TABLE Ingresso ADD CONSTRAINT FK_Ingresso_1
     REFERENCES Classificacao (idClassif)
     ON DELETE CASCADE ON UPDATE CASCADE;
  
+ALTER TABLE Ingresso ADD CONSTRAINT FK_Ingresso_2
+    FOREIGN KEY (FK_Evento_idEvento)
+    REFERENCES Evento (idEvento)
+    ON DELETE CASCADE ON UPDATE CASCADE;
+ 
 ALTER TABLE PontoVenda ADD CONSTRAINT FK_PontoVenda_1
     FOREIGN KEY (FK_Localizacao_idLocal)
     REFERENCES Localizacao (idLocal)
@@ -268,14 +269,6 @@ ALTER TABLE Favorita_gratis_favorita ADD CONSTRAINT FK_Favorita_gratis_favorita_
 ALTER TABLE Favorita_gratis_favorita ADD CONSTRAINT FK_Favorita_gratis_favorita_1
     FOREIGN KEY (FK_Evento_idEvento)
     REFERENCES Evento (idEvento);
- 
-ALTER TABLE ingresso_evento_possui ADD CONSTRAINT FK_ingresso_evento_possui_0
-    FOREIGN KEY (FK_Evento_idEvento)
-    REFERENCES Evento (idEvento);
- 
-ALTER TABLE ingresso_evento_possui ADD CONSTRAINT FK_ingresso_evento_possui_1
-    FOREIGN KEY (FK_Ingresso_idIngresso)
-    REFERENCES Ingresso (idIngresso);
  
 ALTER TABLE evento_pontosVendas_possui ADD CONSTRAINT FK_evento_pontosVendas_possui_0
     FOREIGN KEY (FK_PontoVenda_idPontoVenda)
