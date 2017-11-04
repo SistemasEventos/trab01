@@ -132,13 +132,14 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         a) inclusão das instruções de criacão das estruturas DDL 
         (criação de tabelas, alterações, etc..)
         
-        Upado o arquivo com nome: ModeloFisico.sql
-          
+        Upado o arquivo com nome: ModeloFisico.sql          
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
         a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
         b) formato .SQL
+        
+        Upado arquivo com nome: ModeloFisico_inserts.sql
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
@@ -146,6 +147,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+        
+        Upado arquivo com nome: ModeloFisico_construcao_inserts.sql
+        
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
         (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
