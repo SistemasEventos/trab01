@@ -55,7 +55,6 @@ CREATE TABLE Juridica (
 
 CREATE TABLE Contrato (
     idContrato SERIAL PRIMARY KEY,
-    dataInicial DATE,
     FK_Periodo_idPeriodo SERIAL,
     FK_Pagamento_idPagamento SERIAL,
     FK_EventosSimultaneos_idEventosSimult SERIAL
@@ -74,6 +73,7 @@ CREATE TABLE evento_pontosVendas_possui (
 );
 
 CREATE TABLE contrato_premium_assina (
+    dataInicial DATE,
     FK_Premium_FK_Cliente_idUser SERIAL,
     FK_Contrato_idContrato SERIAL
 );
