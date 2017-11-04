@@ -156,6 +156,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+        
+        Upado arquivo com nome: ModeloFisico_drops_construcao_inserts.sql
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
