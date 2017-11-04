@@ -1,5 +1,3 @@
-/* ModeloLogico: */
-
 CREATE TABLE Conta (
     idConta SERIAL PRIMARY KEY,
     FK_TipoConta_idTconta SERIAL,
