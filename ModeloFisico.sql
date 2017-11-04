@@ -55,9 +55,11 @@ CREATE TABLE Juridica (
 
 CREATE TABLE Contrato (
     idContrato SERIAL PRIMARY KEY,
+    dataInicial DATE,
     FK_Periodo_idPeriodo SERIAL,
     FK_Pagamento_idPagamento SERIAL,
-    FK_EventosSimultaneos_idEventosSimult SERIAL
+    FK_EventosSimultaneos_idEventosSimult SERIAL,
+    FK_Premium_FK_Cliente_idUser SERIAL
 );
 
 CREATE TABLE Favorita_gratis_favorita (
@@ -70,12 +72,6 @@ CREATE TABLE evento_pontosVendas_possui (
     data DATE,
     FK_PontoVenda_idPontoVenda SERIAL,
     FK_Evento_idEvento SERIAL
-);
-
-CREATE TABLE contrato_premium_assina (
-    dataInicial DATE,
-    FK_Premium_FK_Cliente_idUser SERIAL,
-    FK_Contrato_idContrato SERIAL
 );
 
 CREATE TABLE Contato (
@@ -262,6 +258,11 @@ ALTER TABLE Contrato ADD CONSTRAINT FK_Contrato_3
     REFERENCES EventosSimultaneos (idEventosSimult)
     ON DELETE CASCADE ON UPDATE CASCADE;
  
+ALTER TABLE Contrato ADD CONSTRAINT FK_Contrato_4
+    FOREIGN KEY (FK_Premium_FK_Cliente_idUser)
+    REFERENCES Premium (FK_Cliente_idUser)
+    ON DELETE RESTRICT ON UPDATE RESTRICT;
+ 
 ALTER TABLE Favorita_gratis_favorita ADD CONSTRAINT FK_Favorita_gratis_favorita_0
     FOREIGN KEY (FK_Gratis_FK_Cliente_idUser)
     REFERENCES Gratis (FK_Cliente_idUser);
@@ -277,14 +278,6 @@ ALTER TABLE evento_pontosVendas_possui ADD CONSTRAINT FK_evento_pontosVendas_pos
 ALTER TABLE evento_pontosVendas_possui ADD CONSTRAINT FK_evento_pontosVendas_possui_1
     FOREIGN KEY (FK_Evento_idEvento)
     REFERENCES Evento (idEvento);
- 
-ALTER TABLE contrato_premium_assina ADD CONSTRAINT FK_contrato_premium_assina_0
-    FOREIGN KEY (FK_Premium_FK_Cliente_idUser)
-    REFERENCES Premium (FK_Cliente_idUser);
- 
-ALTER TABLE contrato_premium_assina ADD CONSTRAINT FK_contrato_premium_assina_1
-    FOREIGN KEY (FK_Contrato_idContrato)
-    REFERENCES Contrato (idContrato);
  
 ALTER TABLE contatos_cliente_tem ADD CONSTRAINT FK_contatos_cliente_tem_1
     FOREIGN KEY (FK_Contato_idTipoContato)
