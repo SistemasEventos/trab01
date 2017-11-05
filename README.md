@@ -165,12 +165,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
      
      Upado arquivo com script com nome: ModeloFisico_selects.sql
-     Upado arquivo com todas imagens na pasta images com nome: 9.1_Consulta_Todas_Tabelas.rar
+     Upado arquivo com todas imagens na pasta images com nome: 9.1_Consulta_Todas_Tabelas
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
      
      Upado arquivo com script com nome: ModeloFisico_selects_Where.sql
-     Upado arquivo com todas imagens na pasta images com nome: 9.2_Consultas_FiltroWhere.rar
+     Upado arquivo com todas imagens na pasta images com nome: 9.2_Consultas_FiltroWhere
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
      a) Criar no mínimo 2 com operadores lógicos
@@ -178,12 +178,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
      c) Criar no mínimo 2 com operação de renomear campo
      
      Upado arquivo com script com nome: ModeloFisico_selects_ope.Logico_Aritmetico_camp.renomeados.sql
-     Upado arquivo com todas imagens na pasta images com nome: 9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados.rar
+     Upado arquivo com todas imagens na pasta images com nome: 9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados
      
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
 
     Upado arquivo com script com nome: ModeloFisico_selects_like.sql
-    Upado arquivo com todas imagens na pasta images com nome: 9.4_Consultas_Com_Like.rar
+    Upado arquivo com todas imagens na pasta images com nome: 9.4_Consultas_Com_Like
 
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
     
