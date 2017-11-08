@@ -1,18 +1,11 @@
 /* ModeloLogico: */
 
-CREATE TABLE Conta (
-    idConta SERIAL PRIMARY KEY,
-    FK_TipoConta_idTconta SERIAL,
-    FK_TipoPessoa_idTpessoa SERIAL
-);
-
 CREATE TABLE Cliente (
     idUser SERIAL PRIMARY KEY,
     userLogin VARCHAR(50),
     data_nascimento_abertura DATE,
     senha VARCHAR(20),
     nome VARCHAR(50),
-    FK_Conta_idConta SERIAL,
     FK_Sexo_idSexo SERIAL
 );
 
@@ -74,23 +67,9 @@ CREATE TABLE evento_pontosVendas_possui (
     FK_Evento_idEvento SERIAL
 );
 
-CREATE TABLE Contato (
+CREATE TABLE TipoContato (
     idTipoContato SERIAL PRIMARY KEY,
     tipo VARCHAR(25)
-);
-
-CREATE TABLE contatos_cliente_tem (
-    descricao VARCHAR(50),
-    idContatoCliente SERIAL PRIMARY KEY,
-    FK_Contato_idTipoContato SERIAL,
-    FK_Cliente_idUser SERIAL
-);
-
-CREATE TABLE contatos_pontosVenda_tem (
-    descricao VARCHAR(50),
-    idContatoPontoVenda SERIAL PRIMARY KEY,
-    FK_Contato_idTipoContato SERIAL,
-    FK_PontoVenda_idPontoVenda SERIAL
 );
 
 CREATE TABLE Localizacao (
@@ -133,16 +112,6 @@ CREATE TABLE Lote (
     FK_Ingresso_idIngresso SERIAL
 );
 
-CREATE TABLE TipoConta (
-    idTconta SERIAL PRIMARY KEY,
-    tipo VARCHAR(20)
-);
-
-CREATE TABLE TipoPessoa (
-    idTpessoa SERIAL PRIMARY KEY,
-    tipo VARCHAR(20)
-);
-
 CREATE TABLE Sexo (
     idSexo SERIAL PRIMARY KEY,
     tipo VARCHAR(25)
@@ -182,23 +151,22 @@ CREATE TABLE Periodo (
     idPeriodo SERIAL PRIMARY KEY,
     meses INT
 );
- 
-ALTER TABLE Conta ADD CONSTRAINT FK_Conta_1
-    FOREIGN KEY (FK_TipoConta_idTconta)
-    REFERENCES TipoConta (idTconta)
-    ON DELETE CASCADE ON UPDATE CASCADE;
- 
-ALTER TABLE Conta ADD CONSTRAINT FK_Conta_2
-    FOREIGN KEY (FK_TipoPessoa_idTpessoa)
-    REFERENCES TipoPessoa (idTpessoa)
-    ON DELETE CASCADE ON UPDATE CASCADE;
+
+CREATE TABLE cliente_contato (
+    descricao VARCHAR(50),
+    idContatoCliente SERIAL PRIMARY KEY,
+    FK_Cliente_idUser SERIAL,
+    FK_TipoContato_idTipoContato SERIAL
+);
+
+CREATE TABLE pontoVenda_contato (
+    descricao VARCHAR(50),
+    idContatoPontoVenda SERIAL PRIMARY KEY,
+    FK_PontoVenda_idPontoVenda SERIAL,
+    FK_TipoContato_idTipoContato SERIAL
+);
  
 ALTER TABLE Cliente ADD CONSTRAINT FK_Cliente_1
-    FOREIGN KEY (FK_Conta_idConta)
-    REFERENCES Conta (idConta)
-    ON DELETE CASCADE ON UPDATE CASCADE;
- 
-ALTER TABLE Cliente ADD CONSTRAINT FK_Cliente_2
     FOREIGN KEY (FK_Sexo_idSexo)
     REFERENCES Sexo (idSexo)
     ON DELETE CASCADE ON UPDATE CASCADE;
@@ -279,22 +247,6 @@ ALTER TABLE evento_pontosVendas_possui ADD CONSTRAINT FK_evento_pontosVendas_pos
     FOREIGN KEY (FK_Evento_idEvento)
     REFERENCES Evento (idEvento);
  
-ALTER TABLE contatos_cliente_tem ADD CONSTRAINT FK_contatos_cliente_tem_1
-    FOREIGN KEY (FK_Contato_idTipoContato)
-    REFERENCES Contato (idTipoContato);
- 
-ALTER TABLE contatos_cliente_tem ADD CONSTRAINT FK_contatos_cliente_tem_2
-    FOREIGN KEY (FK_Cliente_idUser)
-    REFERENCES Cliente (idUser);
- 
-ALTER TABLE contatos_pontosVenda_tem ADD CONSTRAINT FK_contatos_pontosVenda_tem_1
-    FOREIGN KEY (FK_Contato_idTipoContato)
-    REFERENCES Contato (idTipoContato);
- 
-ALTER TABLE contatos_pontosVenda_tem ADD CONSTRAINT FK_contatos_pontosVenda_tem_2
-    FOREIGN KEY (FK_PontoVenda_idPontoVenda)
-    REFERENCES PontoVenda (idPontoVenda);
- 
 ALTER TABLE Localizacao ADD CONSTRAINT FK_Localizacao_1
     FOREIGN KEY (FK_Cidade_idCidade)
     REFERENCES Cidade (idCidade)
@@ -335,3 +287,23 @@ ALTER TABLE Lote ADD CONSTRAINT FK_Lote_1
     FOREIGN KEY (FK_Ingresso_idIngresso)
     REFERENCES Ingresso (idIngresso)
     ON DELETE RESTRICT ON UPDATE RESTRICT;
+ 
+ALTER TABLE cliente_contato ADD CONSTRAINT FK_cliente_contato_1
+    FOREIGN KEY (FK_Cliente_idUser)
+    REFERENCES Cliente (idUser)
+    ON DELETE RESTRICT ON UPDATE RESTRICT;
+ 
+ALTER TABLE cliente_contato ADD CONSTRAINT FK_cliente_contato_2
+    FOREIGN KEY (FK_TipoContato_idTipoContato)
+    REFERENCES TipoContato (idTipoContato)
+    ON DELETE CASCADE ON UPDATE CASCADE;
+ 
+ALTER TABLE pontoVenda_contato ADD CONSTRAINT FK_pontoVenda_contato_1
+    FOREIGN KEY (FK_PontoVenda_idPontoVenda)
+    REFERENCES PontoVenda (idPontoVenda)
+    ON DELETE RESTRICT ON UPDATE RESTRICT;
+ 
+ALTER TABLE pontoVenda_contato ADD CONSTRAINT FK_pontoVenda_contato_2
+    FOREIGN KEY (FK_TipoContato_idTipoContato)
+    REFERENCES TipoContato (idTipoContato)
+    ON DELETE CASCADE ON UPDATE CASCADE;
