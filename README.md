@@ -93,19 +93,29 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 5.2 DECISÕES DE PROJETO
  
-    Cliente: No projeto foi decidido que tem dois tipos de cliente, o Grátis, que é voltado para o público que tem interesse em             participar dos eventos, e o Premium, que é voltado para pessoas físicas e jurídicas que desejam divulgar eventos.
+    Cliente: No projeto foi decidido que tem dois tipos de cliente, o Grátis, que é voltado para o público que tem interesse em        	
+    participar dos eventos, e o Premium, que é voltado para pessoas físicas e jurídicas que desejam divulgar eventos.
 
-    período: Esse campo é pré-definido com valores fixos para facilitar e padronizar o contrato, de forma que o cliente só pode escolher     tais valores.
+    período: Esse campo é pré-definido com valores fixos para facilitar e padronizar o contrato, de forma que o cliente só pode escolher 
+    tais valores.
 
     evento simultâneos: Assim como período também é pré-definido exatamente com o mesmo intuito.
 
-    Contato: Foi decidido criar uma tabela de contatos para ter mais flexibilidade na comunicação com os clientes, principalmente o         Premium. Outro ponto de decisão é que o cliente Premium tem mais formas de contato que Grátis, que só possui o email como forma de       contato. Outra decisão que também são armazenados contatos dos pontos de vendas dos ingressos do evento.
+    Contato: Foi decidido criar uma tabela de contatos para ter mais flexibilidade na comunicação com os clientes, principalmente o    
+    Premium. Outro ponto de decisão é que o cliente Premium tem mais formas de contato que Grátis, que só possui o email como forma de  
+    contato. Outra decisão que também são armazenados contatos dos pontos de vendas dos ingressos do evento.
 
-    Localização: A localização se tornou uma entidade, com intuito de melhor organização e consistência no Banco, onde é multivalorado e     composto para os eventos, onde pode ocorrer em mais de um local, ou no caso sendo somente composto, onde indica o local referente ao     ponto de venda.
+    Localização: A localização se tornou uma entidade, com intuito de melhor organização e consistência no Banco, onde é multivalorado e 
+    composto para os eventos, onde pode ocorrer em mais de um local, ou no caso sendo somente composto, onde indica o local referente ao 
+    ponto de venda.
 
-    gênero: É uma característica do evento que do evento, onde é multivalorado, ou seja, um evento pode ter mais de um gênero. Isso foi     realizado para que o cliente Premium tenha maior flexibilidade na divulgação do evento.
+    gênero: É uma característica do evento que do evento, onde é multivalorado, ou seja, um evento pode ter mais de um gênero. Isso foi 
+    realizado para que o cliente Premium tenha maior flexibilidade na divulgação do evento.
 
-    preço: O preço de entrada para os eventos divulgados através do sistema não é algo simples para que o cliente divulgue de maneira       flexível e consistente. Isso ocorre, pois o evento possui um ingresso e esse uma ou mais classificações (pista, arquibancada,           camarote, único), onde cada uma tem lotes (1º lote, 2º lote e afins) e cada lote um preço específico e determinado pelo cliente         Premium.
+    preço: O preço de entrada para os eventos divulgados através do sistema não é algo simples para que o cliente divulgue de maneira   
+    flexível e consistente. Isso ocorre, pois o evento possui um ingresso e esse uma ou mais classificações (pista, arquibancada,       
+    camarote, único), onde cada uma tem lotes (1º lote, 2º lote e afins) e cada lote um preço específico e determinado pelo cliente     
+    Premium.
 
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
