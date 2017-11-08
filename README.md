@@ -266,7 +266,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ### 7	MODELO FÍSICO<br>
         
-![Alt text](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico.sql)
+![Link do Modelo Físico](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico.sql)
                   
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
