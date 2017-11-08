@@ -265,10 +265,9 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)
         
-        Upado o arquivo com nome: ModeloFisico.sql          
+![Alt text](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico.sql)
+                  
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
