@@ -87,7 +87,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         * O protótipo deve possui no mínimo duas relações N para N
         * o mínimo de entidades do modelo conceitual será igual a 5
         
-![Alt text](https://image.ibb.co/cLvPoG/Modelo_Conceitual.png)
+![Alt text](https://image.ibb.co/fuaKtG/Modelo_Conceitual.png)
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
@@ -124,7 +124,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         a) inclusão do modelo lógico do banco de dados
         b) verificação de correspondencia com o modelo conceitual 
         (não serão aceitos modelos que não estejam em conformidade)
-![Alt text](https://image.ibb.co/f3jvvw/Modelo_Logico.png)
+![Alt text](https://image.ibb.co/mx1sDG/Modelo_Logico.png)
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
