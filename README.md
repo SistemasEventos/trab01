@@ -288,7 +288,39 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
      
 ![Link dos Select para as tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects.sql)
-(https://ibb.co/album/dtG3BF)
+![Imagens dos Select]
+https://image.ibb.co/jpYSyG/1.png
+https://image.ibb.co/mcpd5w/2.png
+https://image.ibb.co/k1cLJG/3.png
+https://image.ibb.co/bX85kw/4.png
+https://image.ibb.co/nhTSyG/5.png
+https://image.ibb.co/knVJ5w/6.png
+https://image.ibb.co/hroSyG/7.png
+https://image.ibb.co/fiiGsb/8.png
+https://image.ibb.co/msKBQw/9.png
+https://image.ibb.co/h2SWQw/10.png
+https://image.ibb.co/n49NXb/11.png
+https://image.ibb.co/hDGfJG/12.png
+https://image.ibb.co/gxsLJG/13.png
+https://image.ibb.co/evxWQw/14.png
+https://image.ibb.co/eZKd5w/15.png
+https://image.ibb.co/dACLJG/16.png
+https://image.ibb.co/nBBfJG/17.png
+https://image.ibb.co/hx85kw/18.png
+https://image.ibb.co/eGs9Cb/19.png
+https://image.ibb.co/itgQkw/20.png
+https://image.ibb.co/jJLJ5w/21.png
+https://image.ibb.co/h8wEdG/22.png
+https://image.ibb.co/dJ0wsb/23.png
+https://image.ibb.co/c9PBQw/24.png
+https://image.ibb.co/gQZZdG/25.png
+https://image.ibb.co/i7eNXb/26.png
+https://image.ibb.co/dr4BQw/27.png
+https://image.ibb.co/i1FJ5w/28.png
+
+
+
+
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
      
