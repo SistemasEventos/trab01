@@ -275,13 +275,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Link do Insert do Modelo Físico](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_inserts.sql)
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (create para tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
-        
-        Upado arquivo com nome: ModeloFisico_construcao_inserts.sql
+![Link do Script do Modelo Físico](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_construcao_inserts.sql)
+
         
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
