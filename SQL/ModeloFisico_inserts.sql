@@ -1,21 +1,7 @@
 /* Insercao de dados nas tabelas do sistema criado */
 
-/* Insercao nas contas */
-INSERT INTO tipoconta(tipo)
-VALUES ('Normal'),
-        ('Premium');
-
-INSERT INTO tipopessoa(tipo)
-VALUES ('Física'),
-        ('Jurídica');
-
-INSERT INTO conta(fk_tipoconta_idtconta, fk_tipopessoa_idtpessoa)
-VALUES (1, 1),
-        (2, 2),
-        (2, 1);
-
 /* insercao nos contatos */
-INSERT INTO contato(tipo)
+INSERT INTO tipocontato(tipo)
 VALUES ('Telefone'),
         ('Facebook'),
         ('E-mail'),
@@ -111,39 +97,39 @@ VALUES ('Masculino'),
 /* Inserindo os clientes do sistema*/
 
 /* Insercao de clientes em geral */
-INSERT INTO cliente(userLogin, data_nascimento_abertura, senha, nome, fk_conta_idconta, fk_sexo_idsexo)
-VALUES ('Youghten', '1960-09-06', 'eeHa4zoh', 'Cauã Barros Azevedo', 1, 1),
-        ('Resem1987', '1987-01-04', 'ung6Ex5ie', 'Mateus Carvalho Melo', 1, 1),
-        ('Tolopead88', '1988-09-03', 'eeteim0Aiki', 'Isabela Fernandes Pinto', 1, 2),
-        ('Vive1993', '1988-09-03', 'wie4eev8Bie', 'Gabrielle Sousa Carvalho', 1, 2),
-        ('Toonde', '1993-12-12', 'zaubu0Ei', 'Matheus Almeida Ferreira', 1, 1),
-        ('Gint1991', '1991-07-14', 'ahsaw9aeCho', 'Vitoria Almeida Barros', 1, 2),
-        ('Ablion', '1994-01-19', 'quah7Yesh', 'Lavinia Cavalcanti Ferreira', 1, 2),
-        ('Gook1998', '1998-11-12', 'Eesie9aghah', 'Sarah Melo Rocha', 1, 2),
-        ('Licaria', '1992-05-01', 'Reid9nol6y', 'Marcos Costa Castro', 1, 1),
-        ('Shaboys', '1993-10-06', 'eivah2Eidee', 'Julian Lima Barbosa', 1, 1),
-        ('ShaboysPremium', '1993-10-06', 'eivah2Eidee22', 'Julian Lima Barbosa', 3, 1),
-        ('Sult1998', '1998-04-12', 'the3xeeZae', 'Nicole Almeida Sousa', 3, 2),
-        ('Amituchens', '1995-02-22', 'piVoon5ai', 'Beatriz Martins Dias', 3, 2),
-        ('Paptur', '1991-01-23', 'Eeb6coole', 'Nicolas Costa Fernandes', 3, 1),
-        ('Wileved', '1998-10-27', 'Xohl6oogheen', 'Giovana Azevedo Rodrigues', 3, 2),
-        ('Hurged', '1996-02-16', 'EiJaCai2yai2', 'Estevan Almeida Martins', 3, 1),
-        ('MRbuffet', '2009-10-08', 'daew312d', 'Miguel e Raul Buffet Ltda', 2, 3),
-        ('SCTelecom', '2009-09-17', 'dasd65d', 'Sophia e Catarina Telecom Ltda', 2, 3),
-        ('CBjoalheriaLTda', '2014-04-11', 'cdaasf32', 'César e Bianca Joalheria Ltda', 2, 3),
-        ('ChocolatesGatoto', '1970-03-14', '432A546c', 'Chocolates Gatoto LTDA', 2, 3),
-        ('VilaFreex', '2012-07-20', '432fsfe34', 'Vila Freex', 2, 3),
-        ('academiventos', '2014-09-09', '34fsf54', 'Academiventos UFES LTDA', 2, 3),
-        ('animeventos', '2015-08-12', 'otakunemehgente123', 'Animeventos Corporation', 2, 3),
-        ('ORoficial', '2009-01-25', '34rdsa5666', 'Orbita Rock', 2, 3);
+INSERT INTO cliente(userLogin, data_nascimento_abertura, senha, nome, fk_sexo_idsexo)
+VALUES ('Youghten', '1960-09-06', 'eeHa4zoh', 'Cauã Barros Azevedo', 1),
+        ('Resem1987', '1987-01-04', 'ung6Ex5ie', 'Mateus Carvalho Melo', 1),
+        ('Tolopead88', '1988-09-03', 'eeteim0Aiki', 'Isabela Fernandes Pinto', 2),
+        ('Vive1993', '1988-09-03', 'wie4eev8Bie', 'Gabrielle Sousa Carvalho', 2),
+        ('Toonde', '1993-12-12', 'zaubu0Ei', 'Matheus Almeida Ferreira', 1),
+        ('Gint1991', '1991-07-14', 'ahsaw9aeCho', 'Vitoria Almeida Barros', 2),
+        ('Ablion', '1994-01-19', 'quah7Yesh', 'Lavinia Cavalcanti Ferreira', 2),
+        ('Gook1998', '1998-11-12', 'Eesie9aghah', 'Sarah Melo Rocha', 2),
+        ('Licaria', '1992-05-01', 'Reid9nol6y', 'Marcos Costa Castro', 1),
+        ('Shaboys', '1993-10-06', 'eivah2Eidee', 'Julian Lima Barbosa', 1),
+        ('ShaboysPremium', '1993-10-06', 'eivah2Eidee22', 'Julian Lima Barbosa', 1),
+        ('Sult1998', '1998-04-12', 'the3xeeZae', 'Nicole Almeida Sousa', 2),
+        ('Amituchens', '1995-02-22', 'piVoon5ai', 'Beatriz Martins Dias', 2),
+        ('Paptur', '1991-01-23', 'Eeb6coole', 'Nicolas Costa Fernandes', 1),
+        ('Wileved', '1998-10-27', 'Xohl6oogheen', 'Giovana Azevedo Rodrigues', 2),
+        ('Hurged', '1996-02-16', 'EiJaCai2yai2', 'Estevan Almeida Martins', 1),
+        ('MRbuffet', '2009-10-08', 'daew312d', 'Miguel e Raul Buffet Ltda', 3),
+        ('SCTelecom', '2009-09-17', 'dasd65d', 'Sophia e Catarina Telecom Ltda', 3),
+        ('CBjoalheriaLTda', '2014-04-11', 'cdaasf32', 'César e Bianca Joalheria Ltda', 3),
+        ('ChocolatesGatoto', '1970-03-14', '432A546c', 'Chocolates Gatoto LTDA', 3),
+        ('VilaFreex', '2012-07-20', '432fsfe34', 'Vila Freex', 3),
+        ('academiventos', '2014-09-09', '34fsf54', 'Academiventos UFES LTDA', 3),
+        ('animeventos', '2015-08-12', 'otakunemehgente123', 'Animeventos Corporation', 3),
+        ('ORoficial', '2009-01-25', '34rdsa5666', 'Orbita Rock', 3);
 
 /* Insercao dos clientes gratis que favoritam os eventos */
 INSERT INTO gratis(fk_cliente_idUser)
-SELECT iduser FROM cliente WHERE fk_conta_idconta = 1;
+SELECT iduser FROM cliente WHERE iduser <= 10;
 
 /* Insercao dos clientes premium divulgam os eventos */
 INSERT INTO premium(fk_cliente_iduser)
-SELECT iduser FROM cliente WHERE fk_conta_idconta = 2 or fk_conta_idconta = 3;
+SELECT iduser FROM cliente WHERE iduser > 10;
 	   
 /* Insercao dos clientes premium de pessoa física */
 INSERT INTO fisica(cpf, fk_premium_fk_cliente_iduser)
@@ -183,7 +169,7 @@ VALUES ('2017-01-02', 2, 2, 2, 11),
         ('2017-01-06', 2, 2, 1, 24);
         
 /* Insercao dos contatos dos clientes */
-INSERT INTO contatos_cliente_tem(descricao, fk_contato_idtipocontato, fk_cliente_iduser)
+INSERT INTO cliente_contato(descricao, fk_tipocontato_idtipocontato, fk_cliente_iduser)
 VALUES ('julianlimabarbosa@gmail.com', 3, 11),
         ('julianlimabarbosa@outlook.com', 3, 11),
         ('JulianLBarb', 2, 11),
@@ -478,7 +464,7 @@ VALUES ('2017-10-18', 1, 1),
         ('2017-06-08', 5, 14);
 
 /* Insercao dos contatos dos pontos de vendas */
-INSERT INTO contatos_pontosvenda_tem(descricao, fk_contato_idtipocontato, fk_pontovenda_idpontovenda)
+INSERT INTO pontovenda_contato(descricao, fk_tipocontato_idtipocontato, fk_pontovenda_idpontovenda)
 VALUES ('RockPao', 2, 1),
         ('2798654312', 1, 1),
         ('Konoha Vila da Folha', 2, 2),
