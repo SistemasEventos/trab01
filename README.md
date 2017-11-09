@@ -187,7 +187,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 	idEvento: Campo que armazena o id do evento favoritado
     data_favoritado: Campo que armazena a data em que determinado evento foi favoritado
 
-    FISICA: Armazena dados dos clientes premium do tipo Pessoa Física. Nota-se que é uma especialização de Premium, onde herdam suas         características.
+    FISICA: Armazena dados dos clientes premium do tipo Pessoa Física. Nota-se que é uma especialização de Premium, onde herdam suas características.
 	idUser: Campo que armazena o id da conta do cliente.
 	cpf: Armazena o Cadastro de Pessoa Física do cliente.
 
@@ -203,7 +203,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 	idClassif: Campo que armazena o id da classificação do ingresso
 	idEvento: Campo que armazena o id do evento
 
-    JURIDICA: Armazena dados dos clientes premium do tipo Pessoa Jurídica. Nota-se que é uma especialização de Premium, onde herdam suas     características.
+    JURIDICA: Armazena dados dos clientes premium do tipo Pessoa Jurídica. Nota-se que é uma especialização de Premium, onde herdam suas características.
 	idUser: Campo que armazena o id da conta do cliente.
 	cnpj: Armazena o Cadastro Nacional de Pessoa Jurídica.
 
@@ -241,7 +241,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 	idTipoContato: Campo que armazena o id do tipo de contato do ponto de venda
 	descricao: Campo que armazena descrição da forma de contato do ponto de venda
 
-    PREMIUM: Armazena dados de todas contas dos clientes premium. Nota-se que é uma especialização do Cliente, onde herdam suas             características.
+    PREMIUM: Armazena dados de todas contas dos clientes premium. Nota-se que é uma especialização do Cliente, onde herdam suas características.
 	idUser: Campo que armazena o id da conta do cliente
 
     REALIZACAO: Tabela que armazena dados de data, horário e localização dos eventos.
