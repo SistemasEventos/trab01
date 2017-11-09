@@ -291,7 +291,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
      
 ![Link dos Select para as tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects.sql)
 
-![Imagens dos Select]
+Imagens dos Select de todas as tabelas do sistema
+
 ![Alt text](https://image.ibb.co/jpYSyG/1.png)
 
 ![Alt text](https://image.ibb.co/mcpd5w/2.png)
