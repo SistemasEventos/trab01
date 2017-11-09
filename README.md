@@ -397,8 +397,22 @@ Imagens das consultas com operadores logicos, aritmeticos e campos renomeados
      
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
 
-    Upado arquivo com script com nome: ModeloFisico_selects_like.sql
-    Upado arquivo com todas imagens na pasta images com nome: 9.4_Consultas_Com_Like
+![Link do Script para as consultas com operador like](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_like.sql)
+
+Imagens das consultas com operador like
+
+![Alt text](https://image.ibb.co/cjwxFw/1.png)
+
+![Alt text](https://image.ibb.co/gadYoG/2.png)
+
+![Alt text](https://image.ibb.co/nAhF2b/3.png)
+
+![Alt text](https://image.ibb.co/bFchhb/4.png)
+
+![Alt text](https://image.ibb.co/jrUjvw/5.png)
+
+![Alt text](https://image.ibb.co/cgvPvw/6.png)
+
 
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
     
