@@ -373,12 +373,27 @@ Imagens das consultas com filtro where
 
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
-     a) Criar no mínimo 2 com operadores lógicos
-     b) Criar no mínimo 2 com operadores aritméticos
-     c) Criar no mínimo 2 com operação de renomear campo
-     
-     Upado arquivo com script com nome: ModeloFisico_selects_ope.Logico_Aritmetico_camp.renomeados.sql
-     Upado arquivo com todas imagens na pasta images com nome: 9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados
+
+![Link do Script para as consultas com operadores logicos, aritmeticos e campos renomeados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_ope.Logico_Aritmetico_camp.renomeados.sql)
+
+Imagens das consultas com operadores logicos, aritmeticos e campos renomeados
+
+![Alt text](https://image.ibb.co/eiJxhb/1.png)
+
+![Alt text](https://image.ibb.co/g98xhb/2.png)
+
+![Alt text](https://image.ibb.co/kAsONb/3.png)
+
+![Alt text](https://image.ibb.co/iFuETG/4.png)
+
+![Alt text](https://image.ibb.co/kgKRaw/5.png)
+
+![Alt text](https://image.ibb.co/mV7CFw/6.png)
+
+![Alt text](https://image.ibb.co/h8Ymaw/7.png)
+
+![Alt text](https://image.ibb.co/jLURaw/8.png)
+
      
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
 
