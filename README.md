@@ -284,7 +284,6 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Link do Script para drops de tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_drops_construcao_inserts.sql)
 
 
-
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
@@ -352,8 +351,26 @@ Imagens dos Select de todas as tabelas do sistema
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
      
-     Upado arquivo com script com nome: ModeloFisico_selects_Where.sql
-     Upado arquivo com todas imagens na pasta images com nome: 9.2_Consultas_FiltroWhere
+![Link do Script para as consultas com filtros where](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_Where.sql)
+
+Imagens das consultas com filtro where
+
+![Alt text](https://image.ibb.co/dc5zdG/1.png)
+
+![Alt text](https://image.ibb.co/ffm5JG/2.png)
+
+![Alt text](https://image.ibb.co/enJwQw/3.png)
+
+![Alt text](https://image.ibb.co/epqXyG/4.png)
+
+![Alt text](https://image.ibb.co/mW21sb/5.png)
+
+![Alt text](https://image.ibb.co/hnAbQw/6.png)
+
+![Alt text](https://image.ibb.co/eiknXb/7.png)
+
+![Alt text](https://image.ibb.co/hDcO5w/8.png)
+
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
      a) Criar no mínimo 2 com operadores lógicos
