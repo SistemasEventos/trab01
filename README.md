@@ -271,10 +271,8 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
-        b) formato .SQL
-        
-        Upado arquivo com nome: ModeloFisico_inserts.sql
+
+![Link do Insert do Modelo Físico](https://github.com/SistemasEventos/trab01/blob/master/SQL/ModeloFisico_inserts.sql)
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
