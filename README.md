@@ -287,7 +287,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
      
-     Upado arquivo com script com nome: ModeloFisico_selects.sql
+![Link dos Select para as tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects.sql)
      Upado arquivo com todas imagens na pasta images com nome: 9.1_Consulta_Todas_Tabelas
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
