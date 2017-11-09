@@ -275,10 +275,12 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Link do Insert do Modelo Físico](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_inserts.sql)
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+
 ![Link do Script para criação + inserção de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_construcao_inserts.sql)
 
         
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
+
 ![Link do Script para drops de tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_drops_construcao_inserts.sql)
 
 
@@ -288,6 +290,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
      
 ![Link dos Select para as tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects.sql)
+
 ![Imagens dos Select]
 ![Alt text](https://image.ibb.co/jpYSyG/1.png)
 ![Alt text](https://image.ibb.co/mcpd5w/2.png)
@@ -317,9 +320,6 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 ![Alt text](https://image.ibb.co/i7eNXb/26.png)
 ![Alt text](https://image.ibb.co/dr4BQw/27.png)
 ![Alt text](https://image.ibb.co/i1FJ5w/28.png)
-
-
-
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
