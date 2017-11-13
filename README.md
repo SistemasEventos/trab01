@@ -61,6 +61,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
     e deve ser criada antes do modelo conceitual
     c) Após criada esta tabela não deve ser modificada, pois será comparada com a tabela final na conclusão do trabalho
     
+![Link do tabela](https://github.com/SistemasEventos/trab01/blob/master/Tabela_Sistemas_Eventos_Antiga.xlsx)
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
