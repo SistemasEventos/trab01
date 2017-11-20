@@ -417,6 +417,7 @@ Imagens das consultas com operador like
 
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
     
+<<<<<<< HEAD
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
 
 Imagens dos updates(atualizações) e deletes (deleções)
@@ -446,6 +447,10 @@ Imagens dos updates(atualizações) e deletes (deleções)
 ![Alt text](https://image.ibb.co/njmzsm/delete_7_1.png)
 
 
+=======
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+![Link do Script para os upgrades e deletes do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/update_delete.sql)
+>>>>>>> 67bcaad55ee8c01b28b756295bad27906359819c
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
