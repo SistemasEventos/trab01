@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 -- Atualização de informações do database criado
 UPDATE cliente_contato SET descricao = 'julianlimabarbosa@hotmail.com' WHERE idcontatocliente = 2;
 UPDATE cliente_contato SET descricao = 'julianlimabarbosa@yahoo.com.br' WHERE idcontatocliente = 101;
