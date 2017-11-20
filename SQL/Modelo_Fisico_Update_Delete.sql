@@ -32,7 +32,7 @@ DELETE FROM lote WHERE idlote = 3;
 SELECT * FROM lote WHERE idlote < 10;
 
 DELETE FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 5 AND horario = '18:00';
-=======
+
 -- Atualização de informações do database criado
 UPDATE cliente_contato SET descricao = 'julianlimabarbosa@hotmail.com' WHERE idcontatocliente = 2;
 UPDATE cliente_contato SET descricao = 'julianlimabarbosa@yahoo.com.br' WHERE idcontatocliente = 101;
@@ -67,5 +67,4 @@ DELETE FROM lote WHERE idlote = 3;
 SELECT * FROM lote WHERE idlote < 10;
 
 DELETE FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 5 AND horario = '18:00';
->>>>>>> 67bcaad55ee8c01b28b756295bad27906359819c
 SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal >= 4;
