@@ -417,7 +417,35 @@ Imagens das consultas com operador like
 
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
     
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
+
+Imagens dos updates(atualizações) e deletes (deleções)
+
+![Alt text](https://image.ibb.co/g6oCCm/updates.png)
+
+![Alt text](https://image.ibb.co/gzhpsm/1_1.png)
+
+![Alt text](https://image.ibb.co/eHrhCm/2_1.png)
+
+![Alt text](https://image.ibb.co/c12YJR/3_1.png)
+
+![Alt text](https://image.ibb.co/dxfW56/4_1.png)
+
+![Alt text](https://image.ibb.co/iFaaXm/delete_1_1.png)
+
+![Alt text](https://image.ibb.co/gr3Usm/delete_2_1.png)
+
+![Alt text](https://image.ibb.co/mHfW56/delete_3_1.png)
+
+![Alt text](https://image.ibb.co/bwOOJR/delete4_1.png)
+
+![Alt text](https://image.ibb.co/gHOesm/delete_5_1.png)
+
+![Alt text](https://image.ibb.co/iTniJR/delete_6_1.png)
+
+![Alt text](https://image.ibb.co/njmzsm/delete_7_1.png)
+
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
