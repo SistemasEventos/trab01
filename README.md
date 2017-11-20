@@ -416,8 +416,8 @@ Imagens das consultas com operador like
 
 
 >## Marco de Entrega 03 em: (Data definida no cronograma)<br>
-    
-<<<<<<< HEAD
+
+
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
 
 ![Link do Script para os upgrades e deletes do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/update_delete.sql)
