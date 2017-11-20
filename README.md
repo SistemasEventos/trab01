@@ -419,6 +419,7 @@ Imagens das consultas com operador like
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
+![Link do Script para as consultas com operador like](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/Modelo_Fisico_Update_Del.sql)
 
 Imagens dos updates(atualizações) e deletes (deleções)
 
