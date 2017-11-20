@@ -420,8 +420,6 @@ Imagens das consultas com operador like
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
 
-![Link do Script para os upgrades e deletes do banco de dados]()
-
 Imagens dos updates(atualizações) e deletes (deleções)
 
 ![Alt text](https://image.ibb.co/g6oCCm/updates.png)
