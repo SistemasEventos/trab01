@@ -454,6 +454,13 @@ Imagens dos updates(atualizações) e deletes (deleções)
 ![Link do Script para a junção e ordenação do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_innerJoin_OrderBy.sql)       
 
 Imagens dos inner join e order by
+![Alt text](https://image.ibb.co/jF0yk6/6.png)
+![Alt text](https://image.ibb.co/bZGSdR/5.png)
+![Alt text](https://image.ibb.co/dhAW56/4.png)
+![Alt text](https://image.ibb.co/b16hCm/3.png)
+![Alt text](https://image.ibb.co/i8UDJR/2.png)
+![Alt text](https://image.ibb.co/f5rhCm/1.png)
+
 	   
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
