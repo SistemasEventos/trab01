@@ -454,10 +454,15 @@ Imagens dos updates(atualizações) e deletes (deleções)
 
 Imagens dos inner join e order by
 ![Alt text](https://image.ibb.co/jF0yk6/6.png)
+
 ![Alt text](https://image.ibb.co/bZGSdR/5.png)
+
 ![Alt text](https://image.ibb.co/dhAW56/4.png)
+
 ![Alt text](https://image.ibb.co/b16hCm/3.png)
+
 ![Alt text](https://image.ibb.co/i8UDJR/2.png)
+
 ![Alt text](https://image.ibb.co/f5rhCm/1.png)
 
 	   
