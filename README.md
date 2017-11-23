@@ -453,6 +453,7 @@ Imagens dos updates(atualizações) e deletes (deleções)
 ![Link do Script para a junção e ordenação do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_innerJoin_OrderBy.sql)       
 
 Imagens dos inner join e order by
+
 ![Alt text](https://image.ibb.co/jF0yk6/6.png)
 
 ![Alt text](https://image.ibb.co/bZGSdR/5.png)
@@ -467,6 +468,27 @@ Imagens dos inner join e order by
 
 	   
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
+
+Imagens de group by e funções de agrupamento
+
+(https://image.ibb.co/fR5hF6/8.png)
+
+![Alt text](https://image.ibb.co/hUmpv6/9.png)
+
+![Alt text](https://image.ibb.co/h5rdoR/7.png)
+
+![Alt text](https://image.ibb.co/b982F6/6.png)
+
+![Alt text](https://image.ibb.co/eMGpv6/5.png)
+
+![Alt text](https://image.ibb.co/dB3r8R/4.png)
+
+![Alt text](https://image.ibb.co/nAKL2m/3.png)
+
+![Alt text](https://image.ibb.co/nGiPTR/2.png)
+
+![Alt text](https://image.ibb.co/bK5Ga6/1.png)
+
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
