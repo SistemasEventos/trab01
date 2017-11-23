@@ -448,7 +448,7 @@ Imagens dos updates(atualizações) e deletes (deleções)
 ![Alt text](https://image.ibb.co/njmzsm/delete_7_1.png)
 
 
-#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6) <br>
+#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
 	
 ![Link do Script para a junção e ordenação do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_innerJoin_OrderBy.sql)       
 
@@ -468,6 +468,8 @@ Imagens dos inner join e order by
 
 	   
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
+
+![Link do Script para o group by e funções de agrupamento](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_groupBy_funcoesAgrupamento.sql)
 
 Imagens de group by e funções de agrupamento
 
