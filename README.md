@@ -471,7 +471,7 @@ Imagens dos inner join e order by
 
 Imagens de group by e funções de agrupamento
 
-(https://image.ibb.co/fR5hF6/8.png)
+![Alt text](https://image.ibb.co/fR5hF6/8.png)
 
 ![Alt text](https://image.ibb.co/hUmpv6/9.png)
 
