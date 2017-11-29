@@ -512,12 +512,19 @@ Imagens de right e left join
 ![Link do Script de left e right join](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selfJoin_view.sql)
 
 Imagens de self join e view
+
 ![Alt text](https://image.ibb.co/bTO4Kb/6.png)
+
 ![Alt text](https://image.ibb.co/g4rrzb/5.png)
+
 ![Alt text](https://image.ibb.co/d5q6Xw/4.png)
+
 ![Alt text](https://image.ibb.co/jrH9kG/3.png)
+
 ![Alt text](https://image.ibb.co/fxQjKb/2.png)
+
 ![Alt text](https://image.ibb.co/j56rzb/1.png)
+
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 ### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
