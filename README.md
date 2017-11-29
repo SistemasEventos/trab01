@@ -508,7 +508,9 @@ Imagens de right e left join
 ![Alt text](https://image.ibb.co/iA8LQG/5.png)
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+
 ![Link do Script de left e right join](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selfJoin_view.sql)
+
 Imagens de self join e view
 ![Alt text](https://image.ibb.co/bTO4Kb/6.png)
 ![Alt text](https://image.ibb.co/g4rrzb/5.png)
