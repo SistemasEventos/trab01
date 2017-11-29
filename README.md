@@ -497,16 +497,15 @@ Imagens de group by e funções de agrupamento
 
 Imagens de right e left join
 
-![Alt text] (https://image.ibb.co/fmR75G/1.png)
+![Alt text](https://image.ibb.co/fmR75G/1.png)
 
-![Alt text] (https://image.ibb.co/hCG75G/2.png)
+![Alt text](https://image.ibb.co/hCG75G/2.png)
 
-![Alt text] (https://image.ibb.co/eXmUKb/3.png)
+![Alt text](https://image.ibb.co/eXmUKb/3.png)
 
-![Alt text] (https://image.ibb.co/f3QdCw/4.png)
+![Alt text](https://image.ibb.co/f3QdCw/4.png)
 
-![Alt text] (https://image.ibb.co/iA8LQG/5.png)
-
+![Alt text](https://image.ibb.co/iA8LQG/5.png)
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
         a) Uma junção que envolva Self Join
