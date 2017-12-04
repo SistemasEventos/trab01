@@ -551,6 +551,14 @@ Imagens das subconsultas realizadas
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
 ### 12   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+
+Encontramos algumas dificuldades na hora de realizar o trabalho, tais como:
+1. Criação do modelo conceitual, em especial no raciocinio lógico na criação do modelo para não ter nenhuma falha;
+2. Queries de DELETE e UPDATE pois temos que conhecer bem o modelo o que requer atenção;
+3. Queries de JOIN, principalmente o INNER JOIN;
+4. Decisões de projeto, pois define pontos específicos do sistema proposto;
+5. Normalização do projeto, pois tivemos que dividir as tabelas para que não houvesse redundância, anomalias e afins;
+
 ### 13   TRABALHO DE MINERAÇÃO DE DADOS
         a) captura das informaçõs
         b) integração com banco de dados em desenvolvimento
