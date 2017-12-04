@@ -121,142 +121,142 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
-    BAIRRO: Tabela que armazena id e nome dos Bairros
-	idBairro: Campo que armazena o id de um bairro
-	local: Campo que armazena o nome de um bairro
+BAIRRO: Tabela que armazena id e nome dos Bairros
+idBairro: Campo que armazena o id de um bairro
+local: Campo que armazena o nome de um bairro
 
-    CIDADE: Tabela que armazena id e nome das Cidades.
-	idCidade: Campo que armazena o id de uma cidade
-	local: Campo que armazena o nome de uma cidade
+CIDADE: Tabela que armazena id e nome das Cidades.
+idCidade: Campo que armazena o id de uma cidade
+local: Campo que armazena o nome de uma cidade
 
-    CLASSIFICAÇÃO: Tabela que armazena a classificação dos ingressos.
-	idClassif: Campo que armazena o id da classificação do ingresso
-    tipo: Campo que armazena  o tipo do ingresso. Ex.: pista, único, arquibancada, camarote e afins.
+CLASSIFICAÇÃO: Tabela que armazena a classificação dos ingressos.
+idClassif: Campo que armazena o id da classificação do ingresso
+tipo: Campo que armazena  o tipo do ingresso. Ex.: pista, único, arquibancada, camarote e afins.
 
-    CLIENTE: Tabela que armazena as informações relacionadas ao cliente.
-	idUser: Campo que armazena a identificação(id) de cada novo conta criada
-	nome: Campo que armazena o nome do cliente
-	userLogin: Campo que armazena o login do cliente
-	idSexo: Campo que armazena o id do sexo do cliente
-	senha: Campo que armazena a senha do cliente criptografada
-    data_nascimeno_abertura: Campo que armazena a data de nascimento ou de abertura do cliente (caso seja empresa)	
+CLIENTE: Tabela que armazena as informações relacionadas ao cliente.
+idUser: Campo que armazena a identificação(id) de cada novo conta criada
+nome: Campo que armazena o nome do cliente
+userLogin: Campo que armazena o login do cliente
+idSexo: Campo que armazena o id do sexo do cliente
+senha: Campo que armazena a senha do cliente criptografada
+data_nascimeno_abertura: Campo que armazena a data de nascimento ou de abertura do cliente (caso seja empresa)	
 
-    CLIENTE_CONTATO: Tabela que armazena o contato dos clientes.
-	idContatoCliente: Campo que armazena os id dos contatos de todos os clientes
-	idUser: Campo que armazena o id do cliente
-	idTipoContato: Campo que armazena o id do tipo de contato do cliente
-	descricao: Campo que armazena a descrição da forma de contato do cliente
+CLIENTE_CONTATO: Tabela que armazena o contato dos clientes.
+idContatoCliente: Campo que armazena os id dos contatos de todos os clientes
+idUser: Campo que armazena o id do cliente
+idTipoContato: Campo que armazena o id do tipo de contato do cliente
+descricao: Campo que armazena a descrição da forma de contato do cliente
 
-    CONTRATO: Tabela que armazena informações dos contratos feitos entre clientes premium e o sistema prestadora do serviço.
-	idContrato: Campo que armazena o id de cada novo contrato realizado
-    idEventosSimult: campo que armazena o id da quantidade de eventos simultâneos contratados
-	idPeriodo: Campo que armazena o id da quantidade de tempo contratado
-    idPagamento: Campo que armazena o id da forma de pagamento escolhida pelo cliente
-	dataInicial: Campo que armazena a data em que o contrato entrou em vigor
-	idUser: Campo que armazena o id do usuário premium contratante
-		
-    ESTADO: Tabela que armazena as id e siglas dos Estados.
-	idEstado: Campo que armazena o id de um Estado
-	UF: Campo que armazena a sigla de um Estado
+CONTRATO: Tabela que armazena informações dos contratos feitos entre clientes premium e o sistema prestadora do serviço.
+idContrato: Campo que armazena o id de cada novo contrato realizado
+idEventosSimult: campo que armazena o id da quantidade de eventos simultâneos contratados
+idPeriodo: Campo que armazena o id da quantidade de tempo contratado
+idPagamento: Campo que armazena o id da forma de pagamento escolhida pelo cliente
+dataInicial: Campo que armazena a data em que o contrato entrou em vigor
+idUser: Campo que armazena o id do usuário premium contratante
+	
+ESTADO: Tabela que armazena as id e siglas dos Estados.
+idEstado: Campo que armazena o id de um Estado
+UF: Campo que armazena a sigla de um Estado
 
-    EVENTO: Tabela que armazena as informações relacionadas aos eventos.
-	idEvento: Campo que armazena o id de cada novo evento criado
-	nome: Campo que armazena o nome do evento criado
-    data_divulgacao: Campo que armazena a data que o evento foi publicado no sistema.
-	idUser: Campo que armazena o id do cliente que divulgou o evento criado.
+EVENTO: Tabela que armazena as informações relacionadas aos eventos.
+idEvento: Campo que armazena o id de cada novo evento criado
+nome: Campo que armazena o nome do evento criado
+data_divulgacao: Campo que armazena a data que o evento foi publicado no sistema.
+idUser: Campo que armazena o id do cliente que divulgou o evento criado.
 
-    EVENTO_GENERO: Tabela que armazena o gênero dos eventos.
-	idEvento: Campo que armazena o id de um evento
-	idGenero: Campo que armazena o id do gênero de um evento
+EVENTO_GENERO: Tabela que armazena o gênero dos eventos.
+idEvento: Campo que armazena o id de um evento
+idGenero: Campo que armazena o id do gênero de um evento
 
-    EVENTO_LOCAL: Tabela que armazena o local que o eventos será realizado.
-    idEventoLocal: Campo que armazena o id da combinação do idEvento com idLocal, como uma espécie de Surrogate Key.
-	idEvento: Campo que armazena o id de um evento
-	idLocal: Campo que armazena o id de um local
+EVENTO_LOCAL: Tabela que armazena o local que o eventos será realizado.
+idEventoLocal: Campo que armazena o id da combinação do idEvento com idLocal, como uma espécie de Surrogate Key.
+idEvento: Campo que armazena o id de um evento
+idLocal: Campo que armazena o id de um local
 
-    EVENTOS_PONTOSVENDAS: Tabela que armazena dados dos locais em que serão vendidos os ingressos de determinado evento
-	idEvento: Campo que armazena o id do evento
-	idPontoVenda: Campo que armazena o id de um ponto de venda
-    data: Campo que armazena o dia em que o ingresso foi divulgado no dado ponto de venda.
+EVENTOS_PONTOSVENDAS: Tabela que armazena dados dos locais em que serão vendidos os ingressos de determinado evento
+idEvento: Campo que armazena o id do evento
+idPontoVenda: Campo que armazena o id de um ponto de venda
+data: Campo que armazena o dia em que o ingresso foi divulgado no dado ponto de venda.
 
-    EVENTOSSIMULTANEOS: Tabela que armazena diferentes quantidade de eventos que o contratante pode divulgar simultaneamente.
-    idEventosSimult: Campo que armazena o id da quantidade de eventos simultâneos que o cliente pode contratar
-    quantidade: Campo que armazena a quantidade de eventos que o cliente pode divulgar simultaneamente
+EVENTOSSIMULTANEOS: Tabela que armazena diferentes quantidade de eventos que o contratante pode divulgar simultaneamente.
+idEventosSimult: Campo que armazena o id da quantidade de eventos simultâneos que o cliente pode contratar
+quantidade: Campo que armazena a quantidade de eventos que o cliente pode divulgar simultaneamente
 
-    FAVORITA_GRATIS: Tabela que armazena os eventos favoritados pelos usuarios grátis.
-	idUser: Campo que armazena o id do usuário
-	idEvento: Campo que armazena o id do evento favoritado
-    data_favoritado: Campo que armazena a data em que determinado evento foi favoritado
+FAVORITA_GRATIS: Tabela que armazena os eventos favoritados pelos usuarios grátis.
+idUser: Campo que armazena o id do usuário
+idEvento: Campo que armazena o id do evento favoritado
+data_favoritado: Campo que armazena a data em que determinado evento foi favoritado
 
-    FISICA: Armazena dados dos clientes premium do tipo Pessoa Física. Nota-se que é uma especialização de Premium, onde herdam suas características.
-	idUser: Campo que armazena o id da conta do cliente.
-	cpf: Armazena o Cadastro de Pessoa Física do cliente.
+FISICA: Armazena dados dos clientes premium do tipo Pessoa Física. Nota-se que é uma especialização de Premium, onde herdam suas características.
+idUser: Campo que armazena o id da conta do cliente.
+cpf: Armazena o Cadastro de Pessoa Física do cliente.
 
-    GENERO: Tabela que armazena diferentes tipos de gênero para os eventos.
-	idGenero: Campo que armazena os ids dos gêneros dos eventos
-	tipo: Campo que armazena o gênero do evento
+GENERO: Tabela que armazena diferentes tipos de gênero para os eventos.
+idGenero: Campo que armazena os ids dos gêneros dos eventos
+tipo: Campo que armazena o gênero do evento
 
-    GRATIS: Armazena dados dos clientes normal/grátis. Nota-se que é uma especialização de Cliente. Logo herda suas características.
-	idUser: Campo que identifica o id da conta do cliente.
+GRATIS: Armazena dados dos clientes normal/grátis. Nota-se que é uma especialização de Cliente. Logo herda suas características.
+idUser: Campo que identifica o id da conta do cliente.
 
-    INGRESSO: Tabela que armazena dados dos ingressos.
-	idIngresso: Campo que armazena o id dos ingressos disponibilizados
-	idClassif: Campo que armazena o id da classificação do ingresso
-	idEvento: Campo que armazena o id do evento
+INGRESSO: Tabela que armazena dados dos ingressos.
+idIngresso: Campo que armazena o id dos ingressos disponibilizados
+idClassif: Campo que armazena o id da classificação do ingresso
+idEvento: Campo que armazena o id do evento
 
-    JURIDICA: Armazena dados dos clientes premium do tipo Pessoa Jurídica. Nota-se que é uma especialização de Premium, onde herdam suas características.
-	idUser: Campo que armazena o id da conta do cliente.
-	cnpj: Armazena o Cadastro Nacional de Pessoa Jurídica.
+JURIDICA: Armazena dados dos clientes premium do tipo Pessoa Jurídica. Nota-se que é uma especialização de Premium, onde herdam suas características.
+idUser: Campo que armazena o id da conta do cliente.
+cnpj: Armazena o Cadastro Nacional de Pessoa Jurídica.
 
-    LOCALIZACAO: Tabela que armazena dados da localização dos eventos e dos pontos de venda dos ingressos.
-	idLocal: Campo que armazena o id de um endereço
-	cep: Campo que armazena o cep de um endereço
-	rua: Campo que armazena o nome de uma rua
-	idEstado: Campo que armazena o id de um estado
-	idBairro: Campo que armazena o id de um bairro
-	numero: Campo que armazena o numero do estabelecimento
+LOCALIZACAO: Tabela que armazena dados da localização dos eventos e dos pontos de venda dos ingressos.
+idLocal: Campo que armazena o id de um endereço
+cep: Campo que armazena o cep de um endereço
+rua: Campo que armazena o nome de uma rua
+idEstado: Campo que armazena o id de um estado
+idBairro: Campo que armazena o id de um bairro
+numero: Campo que armazena o numero do estabelecimento
 
-    LOTE: Tabela que armazena informações de preço, quantidade de ingressos do lote.
-	idLote: Campo que armazena o id de cada novo lote de ingresso disponibilizado
-	idIngresso: Campo que armazena o id do ingresso de um dado evento
-	numero: Campo que armazena o numero do lote dos ingressos
-	quantidade: Campo que armazena a quantidade de ingressos disponibilizados 
-	preco: Campo que armazena o preço unitário dos ingressos de determinado lote
+LOTE: Tabela que armazena informações de preço, quantidade de ingressos do lote.
+idLote: Campo que armazena o id de cada novo lote de ingresso disponibilizado
+idIngresso: Campo que armazena o id do ingresso de um dado evento
+numero: Campo que armazena o numero do lote dos ingressos
+quantidade: Campo que armazena a quantidade de ingressos disponibilizados 
+preco: Campo que armazena o preço unitário dos ingressos de determinado lote
 
-    PAGAMENTO: Tabela que armazena diferentes modos de pagamento.
-	idPagamento: Campo que armazena o id de diferentes formas de pagamento
-	forma: Campo que armazena a forma de pagamento específica
+PAGAMENTO: Tabela que armazena diferentes modos de pagamento.
+idPagamento: Campo que armazena o id de diferentes formas de pagamento
+forma: Campo que armazena a forma de pagamento específica
 
-    PERIODO: Tabela que armazena diferentes períodos para a duração do contrato.
-	idPeriodo: Campo que armazena o id de diferentes períodos de duração do contrato.
-	meses: Campo que armazena diferentes quantidades de tempo para o contrato.
+PERIODO: Tabela que armazena diferentes períodos para a duração do contrato.
+idPeriodo: Campo que armazena o id de diferentes períodos de duração do contrato.
+meses: Campo que armazena diferentes quantidades de tempo para o contrato.
 
-    PONTOVENDA: Tabela que armazena informações dos pontos de vendas de ingressos.
-	idPontoVenda: Campo que armazena o id de um ponto de venda
-	idLocal: Campo que armazena o id do endereço do ponto de venda
-	nome_ponto: Campo que armazena o nome do ponto de venda
+PONTOVENDA: Tabela que armazena informações dos pontos de vendas de ingressos.
+idPontoVenda: Campo que armazena o id de um ponto de venda
+idLocal: Campo que armazena o id do endereço do ponto de venda
+nome_ponto: Campo que armazena o nome do ponto de venda
 
-    PONTOVENDA_CONTATO: Tabela que armazena o contato dos pontos de vendas.
-    idContatoPontoVenda: Campo que armazena os ids dos contatos de todos os pontos de vendas
-	idPontoVenda: Campo que armazena o id do ponto de venda
-	idTipoContato: Campo que armazena o id do tipo de contato do ponto de venda
-	descricao: Campo que armazena descrição da forma de contato do ponto de venda
+PONTOVENDA_CONTATO: Tabela que armazena o contato dos pontos de vendas.
+idContatoPontoVenda: Campo que armazena os ids dos contatos de todos os pontos de vendas
+idPontoVenda: Campo que armazena o id do ponto de venda
+idTipoContato: Campo que armazena o id do tipo de contato do ponto de venda
+descricao: Campo que armazena descrição da forma de contato do ponto de venda
 
-    PREMIUM: Armazena dados de todas contas dos clientes premium. Nota-se que é uma especialização do Cliente, onde herdam suas características.
-	idUser: Campo que armazena o id da conta do cliente
+PREMIUM: Armazena dados de todas contas dos clientes premium. Nota-se que é uma especialização do Cliente, onde herdam suas características.
+idUser: Campo que armazena o id da conta do cliente
 
-    REALIZACAO: Tabela que armazena dados de data, horário e localização dos eventos.
-    idEventoLocal: Campo que armazena o id do local em que o evento será realizado
-	data: Campo que armazena a data em que o evento acontecerá
-	horario: Campo que armazena a hora que o evento iniciará
+REALIZACAO: Tabela que armazena dados de data, horário e localização dos eventos.
+idEventoLocal: Campo que armazena o id do local em que o evento será realizado
+data: Campo que armazena a data em que o evento acontecerá
+horario: Campo que armazena a hora que o evento iniciará
 
-    SEXO: Tabela que armazena diferentes tipos de sexo.
-	idSexo: Campo que armazena o id de cada sexo
-	tipo: Campo que armazena o sexo
+SEXO: Tabela que armazena diferentes tipos de sexo.
+idSexo: Campo que armazena o id de cada sexo
+tipo: Campo que armazena o sexo
 
-    TIPOCONTATO: Tabela que armazena id e tipo de forma de contatar os clientes e os pontos de vendas.
-	idTipoContato: Campo que armazena o id do tipo de contato
-    tipo: Campo que armazena o tipo de contato do cliente. Ex.: Facebook, telefone, e-mail e afins.
+TIPOCONTATO: Tabela que armazena id e tipo de forma de contatar os clientes e os pontos de vendas.
+idTipoContato: Campo que armazena o id do tipo de contato
+tipo: Campo que armazena o tipo de contato do cliente. Ex.: Facebook, telefone, e-mail e afins.
 
 
 ### 6	MODELO LÓGICO<br>
