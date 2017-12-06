@@ -121,175 +121,175 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
-BAIRRO: Tabela que armazena id e nome dos Bairros
-idBairro: Campo que armazena o id de um bairro
-local: Campo que armazena o nome de um bairro
+	BAIRRO: Tabela que armazena id e nome dos Bairros
+	idBairro: Campo que armazena o id de um bairro
+	local: Campo que armazena o nome de um bairro
 
-CIDADE: Tabela que armazena id e nome das Cidades.
-idCidade: Campo que armazena o id de uma cidade
-local: Campo que armazena o nome de uma cidade
+	CIDADE: Tabela que armazena id e nome das Cidades.
+	idCidade: Campo que armazena o id de uma cidade
+	local: Campo que armazena o nome de uma cidade
 
-CLASSIFICAÇÃO: Tabela que armazena a classificação dos ingressos.
-idClassif: Campo que armazena o id da classificação do ingresso
-tipo: Campo que armazena  o tipo do ingresso. Ex.: pista, único, arquibancada, camarote e afins.
+	CLASSIFICAÇÃO: Tabela que armazena a classificação dos ingressos.
+	idClassif: Campo que armazena o id da classificação do ingresso
+	tipo: Campo que armazena  o tipo do ingresso. Ex.: pista, único, arquibancada, camarote e afins.
 
-CLIENTE: Tabela que armazena as informações relacionadas ao cliente.
-idUser: Campo que armazena a identificação(id) de cada novo conta criada
-nome: Campo que armazena o nome do cliente
-userLogin: Campo que armazena o login do cliente
-idSexo: Campo que armazena o id do sexo do cliente
-senha: Campo que armazena a senha do cliente criptografada
-data_nascimeno_abertura: Campo que armazena a data de nascimento ou de abertura do cliente (caso seja empresa)	
+	CLIENTE: Tabela que armazena as informações relacionadas ao cliente.
+	idUser: Campo que armazena a identificação(id) de cada novo conta criada
+	nome: Campo que armazena o nome do cliente
+	userLogin: Campo que armazena o login do cliente
+	idSexo: Campo que armazena o id do sexo do cliente
+	senha: Campo que armazena a senha do cliente criptografada
+	data_nascimeno_abertura: Campo que armazena a data de nascimento ou de abertura do cliente (caso seja empresa)	
 
-CLIENTE_CONTATO: Tabela que armazena o contato dos clientes.
-idContatoCliente: Campo que armazena os id dos contatos de todos os clientes
-idUser: Campo que armazena o id do cliente
-idTipoContato: Campo que armazena o id do tipo de contato do cliente
-descricao: Campo que armazena a descrição da forma de contato do cliente
+	CLIENTE_CONTATO: Tabela que armazena o contato dos clientes.
+	idContatoCliente: Campo que armazena os id dos contatos de todos os clientes
+	idUser: Campo que armazena o id do cliente
+	idTipoContato: Campo que armazena o id do tipo de contato do cliente
+	descricao: Campo que armazena a descrição da forma de contato do cliente
 
-CONTRATO: Tabela que armazena informações dos contratos feitos entre clientes premium e o sistema prestadora do serviço.
-idContrato: Campo que armazena o id de cada novo contrato realizado
-idEventosSimult: campo que armazena o id da quantidade de eventos simultâneos contratados
-idPeriodo: Campo que armazena o id da quantidade de tempo contratado
-idPagamento: Campo que armazena o id da forma de pagamento escolhida pelo cliente
-dataInicial: Campo que armazena a data em que o contrato entrou em vigor
-idUser: Campo que armazena o id do usuário premium contratante
-	
-ESTADO: Tabela que armazena as id e siglas dos Estados.
-idEstado: Campo que armazena o id de um Estado
-UF: Campo que armazena a sigla de um Estado
+	CONTRATO: Tabela que armazena informações dos contratos feitos entre clientes premium e o sistema prestadora do serviço.
+	idContrato: Campo que armazena o id de cada novo contrato realizado
+	idEventosSimult: campo que armazena o id da quantidade de eventos simultâneos contratados
+	idPeriodo: Campo que armazena o id da quantidade de tempo contratado
+	idPagamento: Campo que armazena o id da forma de pagamento escolhida pelo cliente
+	dataInicial: Campo que armazena a data em que o contrato entrou em vigor
+	idUser: Campo que armazena o id do usuário premium contratante
 
-EVENTO: Tabela que armazena as informações relacionadas aos eventos.
-idEvento: Campo que armazena o id de cada novo evento criado
-nome: Campo que armazena o nome do evento criado
-data_divulgacao: Campo que armazena a data que o evento foi publicado no sistema.
-idUser: Campo que armazena o id do cliente que divulgou o evento criado.
+	ESTADO: Tabela que armazena as id e siglas dos Estados.
+	idEstado: Campo que armazena o id de um Estado
+	UF: Campo que armazena a sigla de um Estado
 
-EVENTO_GENERO: Tabela que armazena o gênero dos eventos.
-idEvento: Campo que armazena o id de um evento
-idGenero: Campo que armazena o id do gênero de um evento
+	EVENTO: Tabela que armazena as informações relacionadas aos eventos.
+	idEvento: Campo que armazena o id de cada novo evento criado
+	nome: Campo que armazena o nome do evento criado
+	data_divulgacao: Campo que armazena a data que o evento foi publicado no sistema.
+	idUser: Campo que armazena o id do cliente que divulgou o evento criado.
 
-EVENTO_LOCAL: Tabela que armazena o local que o eventos será realizado.
-idEventoLocal: Campo que armazena o id da combinação do idEvento com idLocal, como uma espécie de Surrogate Key.
-idEvento: Campo que armazena o id de um evento
-idLocal: Campo que armazena o id de um local
+	EVENTO_GENERO: Tabela que armazena o gênero dos eventos.
+	idEvento: Campo que armazena o id de um evento
+	idGenero: Campo que armazena o id do gênero de um evento
 
-EVENTOS_PONTOSVENDAS: Tabela que armazena dados dos locais em que serão vendidos os ingressos de determinado evento
-idEvento: Campo que armazena o id do evento
-idPontoVenda: Campo que armazena o id de um ponto de venda
-data: Campo que armazena o dia em que o ingresso foi divulgado no dado ponto de venda.
+	EVENTO_LOCAL: Tabela que armazena o local que o eventos será realizado.
+	idEventoLocal: Campo que armazena o id da combinação do idEvento com idLocal, como uma espécie de Surrogate Key.
+	idEvento: Campo que armazena o id de um evento
+	idLocal: Campo que armazena o id de um local
 
-EVENTOSSIMULTANEOS: Tabela que armazena diferentes quantidade de eventos que o contratante pode divulgar simultaneamente.
-idEventosSimult: Campo que armazena o id da quantidade de eventos simultâneos que o cliente pode contratar
-quantidade: Campo que armazena a quantidade de eventos que o cliente pode divulgar simultaneamente
+	EVENTOS_PONTOSVENDAS: Tabela que armazena dados dos locais em que serão vendidos os ingressos de determinado evento
+	idEvento: Campo que armazena o id do evento
+	idPontoVenda: Campo que armazena o id de um ponto de venda
+	data: Campo que armazena o dia em que o ingresso foi divulgado no dado ponto de venda.
 
-FAVORITA_GRATIS: Tabela que armazena os eventos favoritados pelos usuarios grátis.
-idUser: Campo que armazena o id do usuário
-idEvento: Campo que armazena o id do evento favoritado
-data_favoritado: Campo que armazena a data em que determinado evento foi favoritado
+	EVENTOSSIMULTANEOS: Tabela que armazena diferentes quantidade de eventos que o contratante pode divulgar simultaneamente.
+	idEventosSimult: Campo que armazena o id da quantidade de eventos simultâneos que o cliente pode contratar
+	quantidade: Campo que armazena a quantidade de eventos que o cliente pode divulgar simultaneamente
 
-FISICA: Armazena dados dos clientes premium do tipo Pessoa Física. Nota-se que é uma especialização de Premium, onde herdam suas características.
-idUser: Campo que armazena o id da conta do cliente.
-cpf: Armazena o Cadastro de Pessoa Física do cliente.
+	FAVORITA_GRATIS: Tabela que armazena os eventos favoritados pelos usuarios grátis.
+	idUser: Campo que armazena o id do usuário
+	idEvento: Campo que armazena o id do evento favoritado
+	data_favoritado: Campo que armazena a data em que determinado evento foi favoritado
 
-GENERO: Tabela que armazena diferentes tipos de gênero para os eventos.
-idGenero: Campo que armazena os ids dos gêneros dos eventos
-tipo: Campo que armazena o gênero do evento
+	FISICA: Armazena dados dos clientes premium do tipo Pessoa Física. Nota-se que é uma especialização de Premium, onde herdam suas características.
+	idUser: Campo que armazena o id da conta do cliente.
+	cpf: Armazena o Cadastro de Pessoa Física do cliente.
 
-GRATIS: Armazena dados dos clientes normal/grátis. Nota-se que é uma especialização de Cliente. Logo herda suas características.
-idUser: Campo que identifica o id da conta do cliente.
+	GENERO: Tabela que armazena diferentes tipos de gênero para os eventos.
+	idGenero: Campo que armazena os ids dos gêneros dos eventos
+	tipo: Campo que armazena o gênero do evento
 
-INGRESSO: Tabela que armazena dados dos ingressos.
-idIngresso: Campo que armazena o id dos ingressos disponibilizados
-idClassif: Campo que armazena o id da classificação do ingresso
-idEvento: Campo que armazena o id do evento
+	GRATIS: Armazena dados dos clientes normal/grátis. Nota-se que é uma especialização de Cliente. Logo herda suas características.
+	idUser: Campo que identifica o id da conta do cliente.
 
-JURIDICA: Armazena dados dos clientes premium do tipo Pessoa Jurídica. Nota-se que é uma especialização de Premium, onde herdam suas características.
-idUser: Campo que armazena o id da conta do cliente.
-cnpj: Armazena o Cadastro Nacional de Pessoa Jurídica.
+	INGRESSO: Tabela que armazena dados dos ingressos.
+	idIngresso: Campo que armazena o id dos ingressos disponibilizados
+	idClassif: Campo que armazena o id da classificação do ingresso
+	idEvento: Campo que armazena o id do evento
 
-LOCALIZACAO: Tabela que armazena dados da localização dos eventos e dos pontos de venda dos ingressos.
-idLocal: Campo que armazena o id de um endereço
-cep: Campo que armazena o cep de um endereço
-rua: Campo que armazena o nome de uma rua
-idEstado: Campo que armazena o id de um estado
-idBairro: Campo que armazena o id de um bairro
-numero: Campo que armazena o numero do estabelecimento
+	JURIDICA: Armazena dados dos clientes premium do tipo Pessoa Jurídica. Nota-se que é uma especialização de Premium, onde herdam suas características.
+	idUser: Campo que armazena o id da conta do cliente.
+	cnpj: Armazena o Cadastro Nacional de Pessoa Jurídica.
 
-LOTE: Tabela que armazena informações de preço, quantidade de ingressos do lote.
-idLote: Campo que armazena o id de cada novo lote de ingresso disponibilizado
-idIngresso: Campo que armazena o id do ingresso de um dado evento
-numero: Campo que armazena o numero do lote dos ingressos
-quantidade: Campo que armazena a quantidade de ingressos disponibilizados 
-preco: Campo que armazena o preço unitário dos ingressos de determinado lote
+	LOCALIZACAO: Tabela que armazena dados da localização dos eventos e dos pontos de venda dos ingressos.
+	idLocal: Campo que armazena o id de um endereço
+	cep: Campo que armazena o cep de um endereço
+	rua: Campo que armazena o nome de uma rua
+	idEstado: Campo que armazena o id de um estado
+	idBairro: Campo que armazena o id de um bairro
+	numero: Campo que armazena o numero do estabelecimento
 
-PAGAMENTO: Tabela que armazena diferentes modos de pagamento.
-idPagamento: Campo que armazena o id de diferentes formas de pagamento
-forma: Campo que armazena a forma de pagamento específica
+	LOTE: Tabela que armazena informações de preço, quantidade de ingressos do lote.
+	idLote: Campo que armazena o id de cada novo lote de ingresso disponibilizado
+	idIngresso: Campo que armazena o id do ingresso de um dado evento
+	numero: Campo que armazena o numero do lote dos ingressos
+	quantidade: Campo que armazena a quantidade de ingressos disponibilizados 
+	preco: Campo que armazena o preço unitário dos ingressos de determinado lote
 
-PERIODO: Tabela que armazena diferentes períodos para a duração do contrato.
-idPeriodo: Campo que armazena o id de diferentes períodos de duração do contrato.
-meses: Campo que armazena diferentes quantidades de tempo para o contrato.
+	PAGAMENTO: Tabela que armazena diferentes modos de pagamento.
+	idPagamento: Campo que armazena o id de diferentes formas de pagamento
+	forma: Campo que armazena a forma de pagamento específica
 
-PONTOVENDA: Tabela que armazena informações dos pontos de vendas de ingressos.
-idPontoVenda: Campo que armazena o id de um ponto de venda
-idLocal: Campo que armazena o id do endereço do ponto de venda
-nome_ponto: Campo que armazena o nome do ponto de venda
+	PERIODO: Tabela que armazena diferentes períodos para a duração do contrato.
+	idPeriodo: Campo que armazena o id de diferentes períodos de duração do contrato.
+	meses: Campo que armazena diferentes quantidades de tempo para o contrato.
 
-PONTOVENDA_CONTATO: Tabela que armazena o contato dos pontos de vendas.
-idContatoPontoVenda: Campo que armazena os ids dos contatos de todos os pontos de vendas
-idPontoVenda: Campo que armazena o id do ponto de venda
-idTipoContato: Campo que armazena o id do tipo de contato do ponto de venda
-descricao: Campo que armazena descrição da forma de contato do ponto de venda
+	PONTOVENDA: Tabela que armazena informações dos pontos de vendas de ingressos.
+	idPontoVenda: Campo que armazena o id de um ponto de venda
+	idLocal: Campo que armazena o id do endereço do ponto de venda
+	nome_ponto: Campo que armazena o nome do ponto de venda
 
-PREMIUM: Armazena dados de todas contas dos clientes premium. Nota-se que é uma especialização do Cliente, onde herdam suas características.
-idUser: Campo que armazena o id da conta do cliente
+	PONTOVENDA_CONTATO: Tabela que armazena o contato dos pontos de vendas.
+	idContatoPontoVenda: Campo que armazena os ids dos contatos de todos os pontos de vendas
+	idPontoVenda: Campo que armazena o id do ponto de venda
+	idTipoContato: Campo que armazena o id do tipo de contato do ponto de venda
+	descricao: Campo que armazena descrição da forma de contato do ponto de venda
 
-REALIZACAO: Tabela que armazena dados de data, horário e localização dos eventos.
-idEventoLocal: Campo que armazena o id do local em que o evento será realizado
-data: Campo que armazena a data em que o evento acontecerá
-horario: Campo que armazena a hora que o evento iniciará
+	PREMIUM: Armazena dados de todas contas dos clientes premium. Nota-se que é uma especialização do Cliente, onde herdam suas características.
+	idUser: Campo que armazena o id da conta do cliente
 
-SEXO: Tabela que armazena diferentes tipos de sexo.
-idSexo: Campo que armazena o id de cada sexo
-tipo: Campo que armazena o sexo
+	REALIZACAO: Tabela que armazena dados de data, horário e localização dos eventos.
+	idEventoLocal: Campo que armazena o id do local em que o evento será realizado
+	data: Campo que armazena a data em que o evento acontecerá
+	horario: Campo que armazena a hora que o evento iniciará
 
-TIPOCONTATO: Tabela que armazena id e tipo de forma de contatar os clientes e os pontos de vendas.
-idTipoContato: Campo que armazena o id do tipo de contato
-tipo: Campo que armazena o tipo de contato do cliente. Ex.: Facebook, telefone, e-mail e afins.
+	SEXO: Tabela que armazena diferentes tipos de sexo.
+	idSexo: Campo que armazena o id de cada sexo
+	tipo: Campo que armazena o sexo
+
+	TIPOCONTATO: Tabela que armazena id e tipo de forma de contatar os clientes e os pontos de vendas.
+	idTipoContato: Campo que armazena o id do tipo de contato
+	tipo: Campo que armazena o tipo de contato do cliente. Ex.: Facebook, telefone, e-mail e afins.
 
 
 ### 6	MODELO LÓGICO<br>
         
-![Alt text](https://image.ibb.co/mx1sDG/Modelo_Logico.png)
+	![Alt text](https://image.ibb.co/mx1sDG/Modelo_Logico.png)
 
 >## Marco de Entrega 02 em: (Data definida no cronograma)<br>
 
 ### 7	MODELO FÍSICO<br>
         
-![Link do Modelo Físico](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico.sql)
+	![Link do Modelo Físico](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico.sql)
                   
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 
-![Link do Insert do Modelo Físico](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_inserts.sql)
+	![Link do Insert do Modelo Físico](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_inserts.sql)
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
 
-![Link do Script para criação + inserção de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_construcao_inserts.sql)
+	![Link do Script para criação + inserção de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_construcao_inserts.sql)
 
         
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
 
-![Link do Script para drops de tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_drops_construcao_inserts.sql)
+	![Link do Script para drops de tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_drops_construcao_inserts.sql)
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
      
-![Link dos Select para as tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects.sql)
+	![Link dos Select para as tabelas existentes](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects.sql)
 
 Imagens dos Select de todas as tabelas do sistema
 
@@ -300,337 +300,529 @@ Imagens dos Select de todas as tabelas do sistema
 	SELECT * FROM genero;
 ![Alt text](https://image.ibb.co/mcpd5w/2.png)
 
-SELECT * FROM pagamento;
+	SELECT * FROM pagamento;
 ![Alt text](https://image.ibb.co/k1cLJG/3.png)
 
-SELECT * FROM eventossimultaneos;
+	SELECT * FROM eventossimultaneos;
 ![Alt text](https://image.ibb.co/bX85kw/4.png)
 
-SELECT * FROM periodo;
+	SELECT * FROM periodo;
 ![Alt text](https://image.ibb.co/nhTSyG/5.png)
 
-SELECT * FROM estado;
+	SELECT * FROM estado;
 ![Alt text](https://image.ibb.co/knVJ5w/6.png)
 
-SELECT * FROM cidade;
+	SELECT * FROM cidade;
 ![Alt text](https://image.ibb.co/hroSyG/7.png)
 
-SELECT * FROM bairro;
+	SELECT * FROM bairro;
 ![Alt text](https://image.ibb.co/fiiGsb/8.png)
 
-SELECT * FROM sexo;
+	SELECT * FROM sexo;
 ![Alt text](https://image.ibb.co/msKBQw/9.png)
 
-SELECT * FROM cliente;
+	SELECT * FROM cliente;
 ![Alt text](https://image.ibb.co/h2SWQw/10.png)
 
-SELECT * FROM gratis;
+	SELECT * FROM gratis;
 ![Alt text](https://image.ibb.co/n49NXb/11.png)
 
-SELECT * FROM premium;
+	SELECT * FROM premium;
 ![Alt text](https://image.ibb.co/hDGfJG/12.png)
 
-SELECT * FROM fisica;
+	SELECT * FROM fisica;
 ![Alt text](https://image.ibb.co/gxsLJG/13.png)
 
-SELECT * FROM juridica;
+	SELECT * FROM juridica;
 ![Alt text](https://image.ibb.co/evxWQw/14.png)
 
-SELECT * FROM contrato;
+	SELECT * FROM contrato;
 ![Alt text](https://image.ibb.co/eZKd5w/15.png)
 
-SELECT * FROM cliente_contato;
+	SELECT * FROM cliente_contato;
 ![Alt text](https://image.ibb.co/dACLJG/16.png)
 
-SELECT * FROM evento;
+	SELECT * FROM evento;
 ![Alt text](https://image.ibb.co/nBBfJG/17.png)
 
-SELECT * FROM ingresso;
+	SELECT * FROM ingresso;
 ![Alt text](https://image.ibb.co/hx85kw/18.png)
 
-SELECT * FROM lote;
+	SELECT * FROM lote;
 ![Alt text](https://image.ibb.co/eGs9Cb/19.png)
 
-SELECT * FROM evento_genero_possui;
+	SELECT * FROM evento_genero_possui;
 ![Alt text](https://image.ibb.co/itgQkw/20.png)
 
-SELECT * FROM localizacao;
+	SELECT * FROM localizacao;
 ![Alt text](https://image.ibb.co/jJLJ5w/21.png)
 
-SELECT * FROM pontovenda;
+	SELECT * FROM pontovenda;
 ![Alt text](https://image.ibb.co/h8wEdG/22.png)
 
-SELECT * FROM evento_local_acontece;
+	SELECT * FROM evento_local_acontece;
 ![Alt text](https://image.ibb.co/dJ0wsb/23.png)
 
-SELECT * FROM realizacao;
+	SELECT * FROM realizacao;
 ![Alt text](https://image.ibb.co/c9PBQw/24.png)
 
-SELECT * FROM evento_pontosvendas_possui;
+	SELECT * FROM evento_pontosvendas_possui;
 ![Alt text](https://image.ibb.co/gQZZdG/25.png)
 
-SELECT * FROM pontovenda_contato;
+	SELECT * FROM pontovenda_contato;
 ![Alt text](https://image.ibb.co/i7eNXb/26.png)
 
-SELECT * FROM favorita_gratis_favorita;
+	SELECT * FROM favorita_gratis_favorita;
 ![Alt text](https://image.ibb.co/dr4BQw/27.png)
 
-SELECT * FROM tipocontato;
+	SELECT * FROM tipocontato;
 ![Alt text](https://image.ibb.co/i1FJ5w/28.png)
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
      
-![Link do Script para as consultas com filtros where](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_Where.sql)
+	![Link do Script para as consultas com filtros where](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_Where.sql)
 
-Imagens das consultas com filtro where
+	Imagens das consultas com filtro where
 
-SELECT * FROM cliente WHERE iduser > 10;
+	SELECT * FROM cliente WHERE iduser > 10;
 ![Alt text](https://image.ibb.co/dc5zdG/1.png)
 
-SELECT nome, data_nascimento_abertura FROM cliente WHERE fk_sexo_idsexo = 1; /* 1 = masculino */
+	SELECT nome, data_nascimento_abertura FROM cliente WHERE fk_sexo_idsexo = 1; /* 1 = masculino */
 ![Alt text](https://image.ibb.co/ffm5JG/2.png)
 
-SELECT nome, userlogin FROM cliente WHERE fk_sexo_idsexo = 3; /* Usuários que são empresas */
+	SELECT nome, userlogin FROM cliente WHERE fk_sexo_idsexo = 3; /* Usuários que são empresas */
 ![Alt text](https://image.ibb.co/enJwQw/3.png)
 
-SELECT fk_premium_fk_cliente_iduser, datainicial FROM contrato WHERE fk_periodo_idperiodo = 4; /* Clientes que assinam por três anos */
+	SELECT fk_premium_fk_cliente_iduser, datainicial FROM contrato WHERE fk_periodo_idperiodo = 4; /* Clientes que assinam por três anos */
 ![Alt text](https://image.ibb.co/epqXyG/4.png)
 
-SELECT * FROM evento WHERE data_divulgacao > '2017-10-01';
+	SELECT * FROM evento WHERE data_divulgacao > '2017-10-01';
 ![Alt text](https://image.ibb.co/mW21sb/5.png)
 
-SELECT numero, cep, rua FROM localizacao WHERE fk_cidade_idcidade = 2; /* locais situados em Vitória */
+	SELECT numero, cep, rua FROM localizacao WHERE fk_cidade_idcidade = 2; /* locais situados em Vitória */
 ![Alt text](https://image.ibb.co/hnAbQw/6.png)
 
-SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 2; /* Contatos que tem facebook */
+	SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 2; /* Contatos que tem facebook */
 ![Alt text](https://image.ibb.co/eiknXb/7.png)
 
-SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 1; /* Contatos que tem telefone */
+	SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 1; /* Contatos que tem telefone */
 ![Alt text](https://image.ibb.co/hDcO5w/8.png)
 
 
-#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
+	#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
 
-![Link do Script para as consultas com operadores logicos, aritmeticos e campos renomeados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_ope.Logico_Aritmetico_camp.renomeados.sql)
+	![Link do Script para as consultas com operadores logicos, aritmeticos e campos renomeados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_ope.Logico_Aritmetico_camp.renomeados.sql)
 
-Imagens das consultas com operadores logicos, aritmeticos e campos renomeados
+	Imagens das consultas com operadores logicos, aritmeticos e campos renomeados
 
-SELECT nome, userlogin FROM cliente WHERE fk_sexo_idsexo = 2 OR fk_sexo_idsexo = 3; /* Pegando onde o sexo é feminino e empresa */
+	SELECT nome, userlogin FROM cliente WHERE fk_sexo_idsexo = 2 OR fk_sexo_idsexo = 3; /* Pegando onde o sexo é feminino e empresa */
 ![Alt text](https://image.ibb.co/eiJxhb/1.png)
 
-SELECT iduser, nome, userlogin FROM cliente WHERE data_nascimento_abertura < '1987-01-01' AND fk_sexo_idsexo = 3;
+	SELECT iduser, nome, userlogin FROM cliente WHERE data_nascimento_abertura < '1987-01-01' AND fk_sexo_idsexo = 3;
 ![Alt text](https://image.ibb.co/g98xhb/2.png)
 
-SELECT iduser, nome, data_nascimento_abertura FROM cliente WHERE NOT fk_sexo_idsexo = 3; /* Nao eh empresa */
+	SELECT iduser, nome, data_nascimento_abertura FROM cliente WHERE NOT fk_sexo_idsexo = 3; /* Nao eh empresa */
 ![Alt text](https://image.ibb.co/kAsONb/3.png)
 
-SELECT fk_ingresso_idingresso, preco+20 AS "preço multa" FROM lote WHERE fk_ingresso_idingresso = 1;
+	SELECT fk_ingresso_idingresso, preco+20 AS "preço multa" FROM lote WHERE fk_ingresso_idingresso = 1;
 ![Alt text](https://image.ibb.co/iFuETG/4.png)
 
-SELECT fk_ingresso_idingresso, CAST(preco*0.5 AS NUMERIC(5,2)) AS "preço estudante" FROM lote;
+	SELECT fk_ingresso_idingresso, CAST(preco*0.5 AS NUMERIC(5,2)) AS "preço estudante" FROM lote;
 ![Alt text](https://image.ibb.co/kgKRaw/5.png)
 
-SELECT fk_ingresso_idingresso, CAST(preco/3 AS NUMERIC(5,2)) AS "Liquidação" FROM lote;
+	SELECT fk_ingresso_idingresso, CAST(preco/3 AS NUMERIC(5,2)) AS "Liquidação" FROM lote;
 ![Alt text](https://image.ibb.co/mV7CFw/6.png)
 
-SELECT descricao AS "Telefone", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato WHERE fk_tipocontato_idtipocontato = 1;
+	SELECT descricao AS "Telefone", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato WHERE fk_tipocontato_idtipocontato = 1;
 ![Alt text](https://image.ibb.co/h8Ymaw/7.png)
 
-SELECT descricao AS "Twitter", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato WHERE fk_tipocontato_idtipocontato = 4;
+	SELECT descricao AS "Twitter", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato WHERE fk_tipocontato_idtipocontato = 4;
 ![Alt text](https://image.ibb.co/jLURaw/8.png)
 
      
-#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
+	#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
 
-![Link do Script para as consultas com operador like](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_like.sql)
+	![Link do Script para as consultas com operador like](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_like.sql)
 
-Imagens das consultas com operador like
+	Imagens das consultas com operador like
 
-SELECT nome, userlogin FROM cliente WHERE nome LIKE 'C%';
+	SELECT nome, userlogin FROM cliente WHERE nome LIKE 'C%';
 ![Alt text](https://image.ibb.co/cjwxFw/1.png)
 
-SELECT nome, userlogin FROM cliente WHERE userlogin ILIKE '%t%';
+	SELECT nome, userlogin FROM cliente WHERE userlogin ILIKE '%t%';
 ![Alt text](https://image.ibb.co/gadYoG/2.png)
 
-SELECT nome, userlogin, iduser FROM cliente WHERE userlogin LIKE '______' AND nome ILIKE '%a';
+	SELECT nome, userlogin, iduser FROM cliente WHERE userlogin LIKE '______' AND nome ILIKE '%a';
 ![Alt text](https://image.ibb.co/nAhF2b/3.png)
 
-SELECT nome AS "Nome do evento", fk_premium_fk_cliente_iduser AS "ID Cliente Premium Responsável" FROM evento
-WHERE nome LIKE 'A%' AND nome NOT ILIKE '%S';
+	SELECT nome AS "Nome do evento", fk_premium_fk_cliente_iduser AS "ID Cliente Premium Responsável" FROM evento WHERE nome LIKE 'A%' AND nome NOT ILIKE '%S';
 ![Alt text](https://image.ibb.co/bFchhb/4.png)
 
-SELECT descricao AS "gmail", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato
-WHERE fk_tipocontato_idtipocontato = 3 AND descricao LIKE '%@gmail%';
+	SELECT descricao AS "gmail", fk_cliente_iduser AS "ID Cliente" FROM cliente_contat WHERE fk_tipocontato_idtipocontato = 3 AND descricao LIKE '%@gmail%';
 ![Alt text](https://image.ibb.co/jrUjvw/5.png)
 
-SELECT descricao AS "hotmail ou outlook", fk_pontovenda_idpontovenda AS "ID Ponto de Venda" FROM pontovenda_contato
-WHERE fk_tipocontato_idtipocontato = 3 AND descricao ILIKE '%@hotmail%' OR descricao ILIKE '%@outlook%';
+	SELECT descricao AS "hotmail ou outlook", fk_pontovenda_idpontovenda AS "ID Ponto de Venda" FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 3 AND descricao ILIKE '%@hotmail%' OR descricao ILIKE '%@outlook%';
 ![Alt text](https://image.ibb.co/cgvPvw/6.png)
 
 
->## Marco de Entrega 03 em: (Data definida no cronograma)<br>
+	>## Marco de Entrega 03 em: (Data definida no cronograma)<br>
 
 
-#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
-![Link do Script para os upgrades e deletes do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/Modelo_Fisico_Update_Del.sql)
+	#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
+	![Link do Script para os upgrades e deletes do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/Modelo_Fisico_Update_Del.sql)
 
-Imagens dos updates(atualizações) e deletes (deleções)
+	Imagens dos updates(atualizações) e deletes (deleções)
 
-UPDATE cliente_contato SET descricao = 'julianlimabarbosa@hotmail.com' WHERE idcontatocliente = 2;
-UPDATE cliente_contato SET descricao = 'julianlimabarbosa@yahoo.com.br' WHERE idcontatocliente = 101;
-UPDATE cliente_contato SET descricao = '27999562314' WHERE idcontatocliente = 81;
-UPDATE realizacao SET data = '2017-12-20' WHERE fk_evento_local_acontece_ideventolocal = 10;
-UPDATE cliente SET nome = 'Gabriele Souza Carvalho' WHERE iduser = 4;
-UPDATE genero SET tipo = 'Bellezza' WHERE idgenero = 11;
+	UPDATE cliente_contato SET descricao = 'julianlimabarbosa@hotmail.com' WHERE idcontatocliente = 2;
+	UPDATE cliente_contato SET descricao = 'julianlimabarbosa@yahoo.com.br' WHERE idcontatocliente = 101;
+	UPDATE cliente_contato SET descricao = '27999562314' WHERE idcontatocliente = 81;
+	UPDATE realizacao SET data = '2017-12-20' WHERE fk_evento_local_acontece_ideventolocal = 10;
+	UPDATE cliente SET nome = 'Gabriele Souza Carvalho' WHERE iduser = 4;
+	UPDATE genero SET tipo = 'Bellezza' WHERE idgenero = 11;
 ![Alt text](https://image.ibb.co/g6oCCm/updates.png)
 
-SELECT * FROM cliente_contato WHERE idcontatocliente = 101 OR idcontatocliente = 2 OR idcontatocliente = 81;
+	SELECT * FROM cliente_contato WHERE idcontatocliente = 101 OR idcontatocliente = 2 OR idcontatocliente = 81;
 ![Alt text](https://image.ibb.co/gzhpsm/1_1.png)
 
-SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 10;
+	SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 10;
 ![Alt text](https://image.ibb.co/eHrhCm/2_1.png)
 
-SELECT * FROM cliente WHERE iduser = 4;
+	SELECT * FROM cliente WHERE iduser = 4;
 ![Alt text](https://image.ibb.co/c12YJR/3_1.png)
 
-SELECT * FROM genero WHERE idgenero = 11;
+	SELECT * FROM genero WHERE idgenero = 11;
 ![Alt text](https://image.ibb.co/dxfW56/4_1.png)
 
-DELETE FROM cliente_contato WHERE idcontatocliente = 7;
-SELECT * FROM cliente_contato;
+	DELETE FROM cliente_contato WHERE idcontatocliente = 7; SELECT * FROM cliente_contato;
 ![Alt text](https://image.ibb.co/iFaaXm/delete_1_1.png)
 
-DELETE FROM cliente_contato WHERE idcontatocliente = 42;
-SELECT * FROM cliente_contato WHERE idcontatocliente > 39 AND idcontatocliente < 50;
+	DELETE FROM cliente_contato WHERE idcontatocliente = 42; SELECT * FROM cliente_contato WHERE idcontatocliente > 39 AND idcontatocliente < 50;
 ![Alt text](https://image.ibb.co/gr3Usm/delete_2_1.png)
 
-DELETE FROM cliente_contato WHERE idcontatocliente = 66;
-SELECT * FROM cliente_contato WHERE idcontatocliente >= 60 AND idcontatocliente <= 70;
+	DELETE FROM cliente_contato WHERE idcontatocliente = 66; SELECT * FROM cliente_contato WHERE idcontatocliente >= 60 AND idcontatocliente <= 70;
 ![Alt text](https://image.ibb.co/mHfW56/delete_3_1.png)
 
-DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 6;
-SELECT * FROM pontovenda_contato WHERE idcontatopontovenda < 10;
+	DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 6; SELECT * FROM pontovenda_contato WHERE idcontatopontovenda < 10;
 ![Alt text](https://image.ibb.co/bwOOJR/delete4_1.png)
 
 
-DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 8;
-SELECT * FROM pontovenda_contato WHERE idcontatopontovenda > 5;
+	DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 8; SELECT * FROM pontovenda_contato WHERE idcontatopontovenda > 5;
 ![Alt text](https://image.ibb.co/gHOesm/delete_5_1.png)
 
-DELETE FROM lote WHERE idlote = 3;
-SELECT * FROM lote WHERE idlote < 10;
+	DELETE FROM lote WHERE idlote = 3; SELECT * FROM lote WHERE idlote < 10;	
 ![Alt text](https://image.ibb.co/iTniJR/delete_6_1.png)
 
-DELETE FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 5 AND horario = '18:00';
-SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal >= 4;
+	DELETE FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 5 AND horario = '18:00'; SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal >= 4;
 ![Alt text](https://image.ibb.co/njmzsm/delete_7_1.png)
 
 
-#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
+	#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
 	
-![Link do Script para a junção e ordenação do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_innerJoin_OrderBy.sql)       
+	![Link do Script para a junção e ordenação do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_innerJoin_OrderBy.sql)       
 
-Imagens dos inner join e order by
+	Imagens dos inner join e order by
 
-
+	SELECT nome, userlogin, sexo.tipo FROM cliente
+	INNER JOIN sexo ON(cliente.fk_sexo_idsexo = sexo.idsexo)
+	ORDER BY nome;
 ![Alt text](https://image.ibb.co/jF0yk6/6.png)
 
+	SELECT cliente.nome AS "Cliente interessado", evento.nome AS "Evento" FROM favorita_gratis_favorita
+	INNER JOIN evento ON(evento.idevento = favorita_gratis_favorita.fk_evento_idevento)
+	INNER JOIN gratis ON(gratis.fk_cliente_iduser = favorita_gratis_favorita.fk_gratis_fk_cliente_iduser)
+	INNER JOIN cliente ON(cliente.iduser = gratis.fk_cliente_iduser)
+	ORDER BY cliente.nome;
 ![Alt text](https://image.ibb.co/bZGSdR/5.png)
 
+
+	SELECT cliente.nome AS "Cliente Responsavel", evento.nome AS "Evento divulgado" FROM evento
+	INNER JOIN premium ON(premium.fk_cliente_iduser = evento.fk_premium_fk_cliente_iduser)
+	INNER JOIN cliente ON(cliente.iduser = premium.fk_cliente_iduser)
+	ORDER BY cliente.nome;
 ![Alt text](https://image.ibb.co/dhAW56/4.png)
 
+	SELECT evento.nome AS "Evento", cidade.local AS "Cidade", bairro.local AS "Bairro", rua, numero FROM evento_local_acontece
+	INNER JOIN evento ON(evento.idevento = evento_local_acontece.fk_evento_idevento)
+	INNER JOIN localizacao ON(localizacao.idlocal = evento_local_acontece.fk_localizacao_idlocal)
+	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
+	INNER JOIN bairro ON(bairro.idbairro = localizacao.fk_bairro_idbairro)
+	ORDER BY evento.nome;
 ![Alt text](https://image.ibb.co/b16hCm/3.png)
 
+
+	SELECT evento.nome, genero.tipo FROM evento_genero_possui
+	INNER JOIN evento ON(evento.idevento = evento_genero_possui.fk_evento_idevento)
+	INNER JOIN genero ON(genero.idgenero = evento_genero_possui.fk_genero_idgenero)
+	ORDER BY genero.tipo DESC, evento.nome;
 ![Alt text](https://image.ibb.co/i8UDJR/2.png)
 
-![Alt text](https://image.ibb.co/f5rhCm/1.png)
+
+	SELECT cliente.nome AS "Cliente Premium", datainicial, meses AS "Periodo(meses)", quantidade AS "Eventos simultaneos",
+	forma AS "Forma de pagamento" FROM contrato
+	INNER JOIN premium ON(premium.fk_cliente_iduser = contrato.fk_premium_fk_cliente_iduser)
+	INNER JOIN cliente ON(cliente.iduser = premium.fk_cliente_iduser)
+	INNER JOIN periodo ON(periodo.idperiodo = contrato.fk_periodo_idperiodo)
+	INNER JOIN pagamento ON(pagamento.idpagamento = contrato.fk_pagamento_idpagamento)
+	INNER JOIN eventossimultaneos ON(eventossimultaneos.ideventossimult = contrato.fk_eventossimultaneos_ideventossimult)
+	ORDER BY datainicial DESC, meses DESC, quantidade DESC, forma;
+	![Alt text](https://image.ibb.co/f5rhCm/1.png)
 
 	   
-#### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
+	#### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
 
-![Link do Script para o group by e funções de agrupamento](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_groupBy_funcoesAgrupamento.sql)
+	![Link do Script para o group by e funções de agrupamento](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_groupBy_funcoesAgrupamento.sql)
 
-Imagens de group by e funções de agrupamento
+	Imagens de group by e funções de agrupamento
 
+	SELECT sexo.tipo AS "Sexo", COUNT(*) AS "Quantidade de clientes" FROM cliente
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	GROUP BY sexo.tipo;
 ![Alt text](https://image.ibb.co/fR5hF6/8.png)
 
+	SELECT evento.nome AS "Evento", SUM(lote.quantidade) AS "Total de ingressos" FROM evento
+	INNER JOIN ingresso ON(ingresso.fk_evento_idevento = evento.idevento)
+	INNER JOIN lote ON(lote.fk_ingresso_idingresso = ingresso.idingresso)
+	GROUP BY evento.nome ORDER BY evento.nome;
 ![Alt text](https://image.ibb.co/hUmpv6/9.png)
 
+	SELECT pontovenda.nome_ponto AS "Ponto de venda", COUNT(*) AS "Numero de eventos que usam o ponto"
+	FROM pontovenda
+	INNER JOIN evento_pontosvendas_possui ON(evento_pontosvendas_possui.fk_pontovenda_idpontovenda = pontovenda.idpontovenda)
+	GROUP BY pontovenda.nome_ponto ORDER BY pontovenda.nome_ponto;
 ![Alt text](https://image.ibb.co/h5rdoR/7.png)
 
+
+	SELECT genero.tipo AS "Genero", COUNT(*) AS "Quantidade eventos" FROM genero
+	INNER JOIN evento_genero_possui ON(evento_genero_possui.fk_genero_idgenero = genero.idgenero)
+	GROUP BY genero.tipo ORDER BY genero.tipo DESC;
 ![Alt text](https://image.ibb.co/b982F6/6.png)
 
+	SELECT cidade.local AS "Cidade", COUNT(*) AS "Quantidade eventos" FROM cidade
+	INNER JOIN localizacao ON(localizacao.fk_cidade_idcidade = cidade.idcidade)
+	INNER JOIN evento_local_acontece ON(evento_local_acontece.fk_localizacao_idlocal = localizacao.idlocal)
+	GROUP BY cidade.local ORDER BY cidade.local;
 ![Alt text](https://image.ibb.co/eMGpv6/5.png)
 
+
+	SELECT cliente.iduser AS "ID Cliente", cliente.nome AS "Nome do cliente", sexo.tipo AS "Sexo", COUNT(*) AS "Quantidade de contatos registrados"
+	FROM cliente
+	INNER JOIN cliente_contato ON(cliente_contato.fk_cliente_iduser = cliente.iduser)
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	GROUP BY cliente.iduser, cliente.nome, sexo.tipo ORDER BY cliente.nome;
 ![Alt text](https://image.ibb.co/dB3r8R/4.png)
 
+
+	SELECT pagamento.forma AS "Forma de pagamento", COUNT(*) AS "Quantidade de vezes utilizados"
+	FROM pagamento
+	INNER JOIN contrato ON(contrato.fk_pagamento_idpagamento = pagamento.idpagamento)
+	GROUP BY pagamento.forma ORDER BY COUNT(*) DESC;
 ![Alt text](https://image.ibb.co/nAKL2m/3.png)
 
+	SELECT idpontovenda AS "ID ponto de venda", nome_ponto AS "Nome do ponto", COUNT(*) AS "Quantidade de contatos registrados"
+	FROM pontovenda
+	INNER JOIN pontovenda_contato ON(pontovenda_contato.fk_pontovenda_idpontovenda = pontovenda.idpontovenda)
+	GROUP BY idpontovenda, nome_ponto HAVING COUNT(*) > 1
+	ORDER BY idpontovenda;
 ![Alt text](https://image.ibb.co/nGiPTR/2.png)
 
+	SELECT cliente.nome AS "Cliente Gratis", COUNT(*) AS "Quantidade de eventos favoritados" FROM gratis
+	INNER JOIN cliente ON(cliente.iduser = gratis.fk_cliente_iduser)
+	INNER JOIN favorita_gratis_favorita ON(favorita_gratis_favorita.fk_gratis_fk_cliente_iduser = gratis.fk_cliente_iduser)
+	WHERE cliente.fk_sexo_idsexo = 1
+	GROUP BY cliente.nome HAVING cliente.nome ILIKE '%a%' AND COUNT(*) >= 2
+	ORDER BY cliente.nome;
 ![Alt text](https://image.ibb.co/bK5Ga6/1.png)
 
-#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+	#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
-![Link do Script de left e right join](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_left_right_join.sql)
+	![Link do Script de left e right join](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_left_right_join.sql)
 
-Imagens de right e left join
-
+	Imagens de right e left join
+	SELECT nome_ponto, cidade.local, bairro.local, rua, numero FROM localizacao
+	LEFT OUTER JOIN pontovenda ON(pontovenda.fk_localizacao_idlocal = localizacao.idlocal)
+	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
+	INNER JOIN bairro ON(bairro.idbairro = localizacao.fk_bairro_idbairro)
+	ORDER BY nome_ponto;
 ![Alt text](https://image.ibb.co/fmR75G/1.png)
 
+	SELECT nome, cidade.local, bairro.local, rua, numero FROM evento_local_acontece
+	INNER JOIN evento ON(evento.idevento = evento_local_acontece.fk_evento_idevento)
+	RIGHT OUTER JOIN localizacao ON(localizacao.idlocal = evento_local_acontece.fk_localizacao_idlocal)
+	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
+	INNER JOIN bairro ON(bairro.idbairro = localizacao.fk_bairro_idbairro)
+	ORDER BY nome;
 ![Alt text](https://image.ibb.co/hCG75G/2.png)
 
+
+	SELECT fk_cliente_iduser AS "ID cliente gratis" ,nome,userlogin,tipo AS "sexo" FROM cliente
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	LEFT OUTER JOIN gratis ON(gratis.fk_cliente_iduser = cliente.iduser)
+	ORDER BY fk_cliente_iduser;
 ![Alt text](https://image.ibb.co/eXmUKb/3.png)
 
+
+
+	SELECT fk_cliente_iduser AS "ID cliente premium" ,nome,userlogin,tipo AS "sexo" FROM cliente
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	LEFT OUTER JOIN premium ON(premium.fk_cliente_iduser = cliente.iduser)
+	ORDER BY fk_cliente_iduser;
 ![Alt text](https://image.ibb.co/f3QdCw/4.png)
 
+	SELECT fk_cliente_iduser AS "ID cliente premium pessoa fisica" ,nome,userlogin,tipo AS "sexo" FROM cliente
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	INNER JOIN premium ON(premium.fk_cliente_iduser = cliente.iduser)
+	RIGHT OUTER JOIN fisica ON(premium.fk_cliente_iduser = fisica.fk_premium_fk_cliente_iduser)
+	ORDER BY fk_cliente_iduser;
 ![Alt text](https://image.ibb.co/iA8LQG/5.png)
 
-#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+	#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
 
-![Link do Script de self join e view](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selfJoin_view.sql)
+	![Link do Script de self join e view](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selfJoin_view.sql)
 
 Imagens de self join e view
 
+	CREATE VIEW clientes_gratis AS
+	SELECT nome, userlogin AS login, data_nascimento_abertura AS "data de nascimento", sexo.tipo AS "sexo" 
+	FROM cliente
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	INNER JOIN gratis ON(gratis.fk_cliente_iduser = cliente.iduser);
+
+	SELECT * FROM clientes_gratis;
 ![Alt text](https://image.ibb.co/bTO4Kb/6.png)
 
+	CREATE VIEW clientes_premium AS
+	SELECT nome, userlogin AS login, data_nascimento_abertura AS "data de abertura ou abertura", sexo.tipo AS sexo 
+	FROM cliente
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	INNER JOIN premium ON(premium.fk_cliente_iduser = cliente.iduser);
+
+	SELECT * FROM clientes_premium ORDER BY nome;
 ![Alt text](https://image.ibb.co/g4rrzb/5.png)
 
+	CREATE VIEW contratos_premium AS
+	SELECT cliente.nome AS "Cliente Premium", datainicial AS "Data inicial", meses AS "Periodo(meses)", 
+	quantidade AS "Eventos simultaneos", forma AS "Forma de pagamento" FROM contrato
+	INNER JOIN premium ON(premium.fk_cliente_iduser = contrato.fk_premium_fk_cliente_iduser)
+	INNER JOIN cliente ON(cliente.iduser = premium.fk_cliente_iduser)
+	INNER JOIN periodo ON(periodo.idperiodo = contrato.fk_periodo_idperiodo)
+	INNER JOIN pagamento ON(pagamento.idpagamento = contrato.fk_pagamento_idpagamento)
+	INNER JOIN eventossimultaneos ON(eventossimultaneos.ideventossimult = contrato.fk_eventossimultaneos_ideventossimult)
+	ORDER BY datainicial DESC, meses DESC, quantidade DESC, forma;
+
+	SELECT * FROM contratos_premium;
 ![Alt text](https://image.ibb.co/d5q6Xw/4.png)
 
+
+	CREATE VIEW eventos_localizacao_cliente_responsavel AS
+	SELECT evento.nome AS "Evento", cliente.nome AS "Cliente Responsavel", estado.uf AS "Estado", cidade.local AS "Cidade", 
+	bairro.local AS "Bairro", rua, numero FROM evento_local_acontece
+	INNER JOIN evento ON(evento.idevento = evento_local_acontece.fk_evento_idevento)
+	INNER JOIN localizacao ON(localizacao.idlocal = evento_local_acontece.fk_localizacao_idlocal)
+	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
+	INNER JOIN bairro ON(bairro.idbairro = localizacao.fk_bairro_idbairro)
+	INNER JOIN estado ON(estado.idestado = localizacao.fk_estado_idestado)
+	INNER JOIN premium ON(premium.fk_cliente_iduser = evento.fk_premium_fk_cliente_iduser)
+	INNER JOIN cliente ON(cliente.iduser = premium.fk_cliente_iduser)
+	ORDER BY evento.nome;
+
+	SELECT * FROM eventos_localizacao_cliente_responsavel;
 ![Alt text](https://image.ibb.co/jrH9kG/3.png)
 
+
+	CREATE VIEW eventos_favoritados_pelos_clientes_gratis AS
+	SELECT cliente.nome AS "Cliente interessado", evento.nome AS "Evento" FROM favorita_gratis_favorita
+	INNER JOIN evento ON(evento.idevento = favorita_gratis_favorita.fk_evento_idevento)
+	INNER JOIN gratis ON(gratis.fk_cliente_iduser = favorita_gratis_favorita.fk_gratis_fk_cliente_iduser)
+	INNER JOIN cliente ON(cliente.iduser = gratis.fk_cliente_iduser)
+	ORDER BY cliente.nome;
+
+	SELECT * FROM eventos_favoritados_pelos_clientes_gratis;
 ![Alt text](https://image.ibb.co/fxQjKb/2.png)
 
+	CREATE VIEW evento_ingresso_lote AS
+	SELECT evento.nome AS "Evento", classificacao.tipo AS "Classificacao", numero AS "Numero do lote",
+	quantidade AS "Quantidade de ingressos", preco AS "Preço" FROM evento
+	INNER JOIN ingresso ON(ingresso.fk_evento_idevento = evento.idevento)
+	INNER JOIN classificacao ON(classificacao.idclassif = ingresso.fk_classificacao_idclassif)
+	INNER JOIN lote ON(lote.fk_ingresso_idingresso = ingresso.idingresso)
+	ORDER BY evento.nome, numero;
+
+	SELECT * FROM evento_ingresso_lote;
 ![Alt text](https://image.ibb.co/j56rzb/1.png)
 
-#### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+	#### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
-![Link do Script de subconsultas](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_subconsultas.sql)
+	![Link do Script de subconsultas](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_subconsultas.sql)
 
-Imagens das subconsultas realizadas
-
+	Imagens das subconsultas realizadas
+	SELECT nome AS "Cliente gratis", userlogin, data_nascimento_abertura AS "data de nascimento",
+	EXTRACT(YEAR FROM age(data_nascimento_abertura)) AS idade, tipo AS "sexo"
+	FROM cliente
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	WHERE cliente.iduser IN (
+	    SELECT fk_cliente_iduser FROM gratis
+	) ORDER BY idade DESC, sexo, nome;
 ![Alt text](https://image.ibb.co/mKv9Kb/6.png)
 
+	SELECT nome AS "Cliente premium pessoa fisica", userlogin, data_nascimento_abertura AS "data de nascimento",
+	date_part('year', age(data_nascimento_abertura)) AS idade, tipo AS "sexo"
+	FROM cliente
+	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
+	WHERE cliente.iduser IN (
+	    SELECT fk_premium_fk_cliente_iduser FROM fisica
+	) ORDER BY idade DESC, sexo, nome;
 ![Alt text](https://image.ibb.co/cQy75G/5.png)
 
+
+	SELECT nome AS "Cliente premium pessoa juridica", userlogin, data_nascimento_abertura AS "data de nascimento",
+	date_part('year', age(data_nascimento_abertura)) AS idade
+	FROM cliente
+	WHERE cliente.iduser IN (
+	    SELECT fk_premium_fk_cliente_iduser FROM juridica
+	) ORDER BY idade DESC, nome;
 ![Alt text](https://image.ibb.co/g5ZEkG/4.png)
 
+	SELECT nome AS "Cliente gratis", descricao AS "Contato" FROM cliente
+	INNER JOIN cliente_contato ON(cliente_contato.fk_cliente_iduser = cliente.iduser)
+	WHERE cliente_contato.fk_cliente_iduser NOT IN (
+	    SELECT fk_cliente_iduser FROM premium
+	) ORDER BY nome;
 ![Alt text](https://image.ibb.co/fodJCw/3.png)
 
+	SELECT nome AS "Cliente premium", descricao AS "Contatos(Somente Telefone e Twitter)" FROM cliente
+	INNER JOIN cliente_contato ON(cliente_contato.fk_cliente_iduser = cliente.iduser)
+	WHERE cliente.iduser NOT IN (
+	    SELECT fk_cliente_iduser FROM gratis
+	) AND
+	cliente_contato.fk_tipocontato_idtipocontato IN (
+	    SELECT idtipocontato FROM tipocontato
+	    WHERE idtipocontato = 1 OR idtipocontato = 4
+	) ORDER BY nome, descricao;
 ![Alt text](https://image.ibb.co/jdMukG/2.png)
 
+	SELECT nome_ponto AS "Ponto de venda", cep AS "CEP", uf AS "Estado",
+	cidade.local AS "Cidade", bairro.local AS "Bairro" FROM pontovenda
+	INNER JOIN localizacao ON(localizacao.idlocal = pontovenda.fk_localizacao_idlocal)
+	INNER JOIN estado ON(estado.idestado = localizacao.fk_estado_idestado)
+	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
+	INNER JOIN bairro ON(bairro.idbairro = localizacao.fk_bairro_idbairro)
+	WHERE localizacao.fk_estado_idestado IN (
+	    SELECT idestado FROM estado WHERE idestado = 1 /* Somente situado no ES */
+	) AND
+	localizacao.fk_cidade_idcidade IN (
+	  SELECT idcidade FROM cidade WHERE idcidade <> 2 /* Nao esta em Vitoria */
+	) ORDER BY nome_ponto;
 ![Alt text](https://image.ibb.co/gZ7BXw/1.png)
 
-### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
-### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
+	### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
+	### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
         b) executar todas as consultas presentes no trabalho
         c) executar códigos que tenham sido construídos para o trabalho 
         d) realizar qualquer procedimento executado pelo grupo que desenvolveu o trabalho
         
-### 12   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
+	### 12   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
 	Encontramos algumas dificuldades na hora de realizar o trabalho, tais como:
 	1. Criação do modelo conceitual, em especial no raciocinio lógico na criação do modelo para não ter nenhuma falha;
@@ -639,40 +831,39 @@ Imagens das subconsultas realizadas
 	4. Decisões de projeto, pois define pontos específicos do sistema proposto;
 	5. Normalização do projeto, pois tivemos que dividir as tabelas para que não houvesse redundância, anomalias e afins;
 
-### 13   TRABALHO DE MINERAÇÃO DE DADOS
+	### 13   TRABALHO DE MINERAÇÃO DE DADOS
         a) captura das informaçõs
         b) integração com banco de dados em desenvolvimento
         c) atualização da documentação do trabalho incluindo a mineração de dados
         
-### 13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
+	### 13  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
-### 14 Backup completo do banco de dados postgres 
+	### 14 Backup completo do banco de dados postgres 
     a) deve ser realizado no formato "backup" 
         (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
     
-![Link do arquivo.backup do banco de dados](https://github.com/SistemasEventos/trab01/blob/master/SistemaEventos_DataBase.backup) 
+	![Link do arquivo.backup do banco de dados](https://github.com/SistemasEventos/trab01/blob/master/SistemaEventos_DataBase.backup) 
     
     Grupo que realizou o restore do banco de dados
     Mapa de Ocorrencias: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
     
->## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
+	>## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
     
-### OBSERVAÇÕES IMPORTANTES
+	### OBSERVAÇÕES IMPORTANTES
 
-#### Todos os arquivos que fazem parte do projeto (Imagens, pdfs, arquivos fonte, etc..), devem estar presentes no GIT. Os arquivos do projeto vigente não devem ser armazenados em quaisquer outras plataformas.
-1. Caso existam arquivos com conteúdos sigilosos, comunicar o professor que definirá em conjunto com o grupo a melhor forma de armazenamento do arquivo.
+	#### Todos os arquivos que fazem parte do projeto (Imagens, pdfs, arquivos fonte, etc..), devem estar presentes no GIT. Os arquivos do projeto vigente não devem ser armazenados em quaisquer outras plataformas.
+	1. Caso existam arquivos com conteúdos sigilosos, comunicar o professor que definirá em conjunto com o grupo a melhor forma de armazenamento do arquivo.
+	
+	#### Todos os grupos deverão fazer Fork deste repositório e dar permissões administrativas ao usuário deste GIT, para acompanhamento do trabalho.
 
-#### Todos os grupos deverão fazer Fork deste repositório e dar permissões administrativas ao usuário deste GIT, para acompanhamento do trabalho.
-
-#### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
-
-
-Link para BrModelo:<br>
-http://sis4.com/brModelo/brModelo/download.html
-<br>
+	#### Os usuários criados no GIT devem possuir o nome de identificação do aluno (não serão aceitos nomes como Eu123, meuprojeto, pro456, etc). Em caso de dúvida comunicar o professor.
 
 
-Link para curso de GIT<br>
-![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
+	Link para BrModelo:<br>
+	http://sis4.com/brModelo/brModelo/download.html <br>
+
+
+	Link para curso de GIT<br>
+	![https://www.youtube.com/curso_git](https://www.youtube.com/playlist?list=PLo7sFyCeiGUdIyEmHdfbuD2eR4XPDqnN2?raw=true "Title")
