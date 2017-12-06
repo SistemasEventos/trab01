@@ -651,6 +651,7 @@ Imagens de group by e funções de agrupamento
 ![Link do Script de left e right join](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_left_right_join.sql)
 
 Imagens de right e left join
+	
 	SELECT nome_ponto, cidade.local, bairro.local, rua, numero FROM localizacao
 	LEFT OUTER JOIN pontovenda ON(pontovenda.fk_localizacao_idlocal = localizacao.idlocal)
 	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
