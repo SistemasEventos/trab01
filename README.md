@@ -295,7 +295,7 @@ Imagens dos Select de todas as tabelas do sistema
 
 
 SELECT * FROM classificacao;
-![Alt text](https://image.ibb.co/jpYSyG/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/1.PNG)
 
 SELECT * FROM genero;
 ![Alt text](https://image.ibb.co/mcpd5w/2.png)
