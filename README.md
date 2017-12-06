@@ -295,7 +295,7 @@ Imagens dos Select de todas as tabelas do sistema
 
 
 SELECT * FROM classificacao;
-![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/1.PNG)
+![Alt text](https://image.ibb.co/jpYSyG/1.png)
 
 SELECT * FROM genero;
 ![Alt text](https://image.ibb.co/mcpd5w/2.png)
@@ -416,20 +416,28 @@ SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_ti
 
 Imagens das consultas com operadores logicos, aritmeticos e campos renomeados
 
+SELECT nome, userlogin FROM cliente WHERE fk_sexo_idsexo = 2 OR fk_sexo_idsexo = 3; /* Pegando onde o sexo é feminino e empresa */
 ![Alt text](https://image.ibb.co/eiJxhb/1.png)
 
+SELECT iduser, nome, userlogin FROM cliente WHERE data_nascimento_abertura < '1987-01-01' AND fk_sexo_idsexo = 3;
 ![Alt text](https://image.ibb.co/g98xhb/2.png)
 
+SELECT iduser, nome, data_nascimento_abertura FROM cliente WHERE NOT fk_sexo_idsexo = 3; /* Nao eh empresa */
 ![Alt text](https://image.ibb.co/kAsONb/3.png)
 
+SELECT fk_ingresso_idingresso, preco+20 AS "preço multa" FROM lote WHERE fk_ingresso_idingresso = 1;
 ![Alt text](https://image.ibb.co/iFuETG/4.png)
 
+SELECT fk_ingresso_idingresso, CAST(preco*0.5 AS NUMERIC(5,2)) AS "preço estudante" FROM lote;
 ![Alt text](https://image.ibb.co/kgKRaw/5.png)
 
+SELECT fk_ingresso_idingresso, CAST(preco/3 AS NUMERIC(5,2)) AS "Liquidação" FROM lote;
 ![Alt text](https://image.ibb.co/mV7CFw/6.png)
 
+SELECT descricao AS "Telefone", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato WHERE fk_tipocontato_idtipocontato = 1;
 ![Alt text](https://image.ibb.co/h8Ymaw/7.png)
 
+SELECT descricao AS "Twitter", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato WHERE fk_tipocontato_idtipocontato = 4;
 ![Alt text](https://image.ibb.co/jLURaw/8.png)
 
      
@@ -439,16 +447,25 @@ Imagens das consultas com operadores logicos, aritmeticos e campos renomeados
 
 Imagens das consultas com operador like
 
+SELECT nome, userlogin FROM cliente WHERE nome LIKE 'C%';
 ![Alt text](https://image.ibb.co/cjwxFw/1.png)
 
+SELECT nome, userlogin FROM cliente WHERE userlogin ILIKE '%t%';
 ![Alt text](https://image.ibb.co/gadYoG/2.png)
 
+SELECT nome, userlogin, iduser FROM cliente WHERE userlogin LIKE '______' AND nome ILIKE '%a';
 ![Alt text](https://image.ibb.co/nAhF2b/3.png)
 
+SELECT nome AS "Nome do evento", fk_premium_fk_cliente_iduser AS "ID Cliente Premium Responsável" FROM evento
+WHERE nome LIKE 'A%' AND nome NOT ILIKE '%S';
 ![Alt text](https://image.ibb.co/bFchhb/4.png)
 
+SELECT descricao AS "gmail", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato
+WHERE fk_tipocontato_idtipocontato = 3 AND descricao LIKE '%@gmail%';
 ![Alt text](https://image.ibb.co/jrUjvw/5.png)
 
+SELECT descricao AS "hotmail ou outlook", fk_pontovenda_idpontovenda AS "ID Ponto de Venda" FROM pontovenda_contato
+WHERE fk_tipocontato_idtipocontato = 3 AND descricao ILIKE '%@hotmail%' OR descricao ILIKE '%@outlook%';
 ![Alt text](https://image.ibb.co/cgvPvw/6.png)
 
 
@@ -460,28 +477,53 @@ Imagens das consultas com operador like
 
 Imagens dos updates(atualizações) e deletes (deleções)
 
+UPDATE cliente_contato SET descricao = 'julianlimabarbosa@hotmail.com' WHERE idcontatocliente = 2;
+UPDATE cliente_contato SET descricao = 'julianlimabarbosa@yahoo.com.br' WHERE idcontatocliente = 101;
+UPDATE cliente_contato SET descricao = '27999562314' WHERE idcontatocliente = 81;
+UPDATE realizacao SET data = '2017-12-20' WHERE fk_evento_local_acontece_ideventolocal = 10;
+UPDATE cliente SET nome = 'Gabriele Souza Carvalho' WHERE iduser = 4;
+UPDATE genero SET tipo = 'Bellezza' WHERE idgenero = 11;
 ![Alt text](https://image.ibb.co/g6oCCm/updates.png)
 
+SELECT * FROM cliente_contato WHERE idcontatocliente = 101 OR idcontatocliente = 2 OR idcontatocliente = 81;
 ![Alt text](https://image.ibb.co/gzhpsm/1_1.png)
 
+SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 10;
 ![Alt text](https://image.ibb.co/eHrhCm/2_1.png)
 
+SELECT * FROM cliente WHERE iduser = 4;
 ![Alt text](https://image.ibb.co/c12YJR/3_1.png)
 
+SELECT * FROM genero WHERE idgenero = 11;
 ![Alt text](https://image.ibb.co/dxfW56/4_1.png)
 
+DELETE FROM cliente_contato WHERE idcontatocliente = 7;
+SELECT * FROM cliente_contato;
 ![Alt text](https://image.ibb.co/iFaaXm/delete_1_1.png)
 
+DELETE FROM cliente_contato WHERE idcontatocliente = 42;
+SELECT * FROM cliente_contato WHERE idcontatocliente > 39 AND idcontatocliente < 50;
 ![Alt text](https://image.ibb.co/gr3Usm/delete_2_1.png)
 
+DELETE FROM cliente_contato WHERE idcontatocliente = 66;
+SELECT * FROM cliente_contato WHERE idcontatocliente >= 60 AND idcontatocliente <= 70;
 ![Alt text](https://image.ibb.co/mHfW56/delete_3_1.png)
 
+DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 6;
+SELECT * FROM pontovenda_contato WHERE idcontatopontovenda < 10;
 ![Alt text](https://image.ibb.co/bwOOJR/delete4_1.png)
 
+
+DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 8;
+SELECT * FROM pontovenda_contato WHERE idcontatopontovenda > 5;
 ![Alt text](https://image.ibb.co/gHOesm/delete_5_1.png)
 
+DELETE FROM lote WHERE idlote = 3;
+SELECT * FROM lote WHERE idlote < 10;
 ![Alt text](https://image.ibb.co/iTniJR/delete_6_1.png)
 
+DELETE FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 5 AND horario = '18:00';
+SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal >= 4;
 ![Alt text](https://image.ibb.co/njmzsm/delete_7_1.png)
 
 
@@ -490,6 +532,7 @@ Imagens dos updates(atualizações) e deletes (deleções)
 ![Link do Script para a junção e ordenação do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_innerJoin_OrderBy.sql)       
 
 Imagens dos inner join e order by
+
 
 ![Alt text](https://image.ibb.co/jF0yk6/6.png)
 
