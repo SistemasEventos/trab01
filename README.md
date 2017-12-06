@@ -466,7 +466,7 @@ Imagens das consultas com operador like
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.4_Consultas_Com_Like/6.PNG)
 
 
-	>## Marco de Entrega 03 em: (Data definida no cronograma)<br>
+>## Marco de Entrega 03 em: (Data definida no cronograma)<br>
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
@@ -494,26 +494,33 @@ Imagens dos updates(atualizações) e deletes (deleções)
 	SELECT * FROM genero WHERE idgenero = 11;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/4.1.PNG)
 
-	DELETE FROM cliente_contato WHERE idcontatocliente = 7; SELECT * FROM cliente_contato;
+	DELETE FROM cliente_contato WHERE idcontatocliente = 7;
+	SELECT * FROM cliente_contato;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%201.1.PNG)
 
-	DELETE FROM cliente_contato WHERE idcontatocliente = 42; SELECT * FROM cliente_contato WHERE idcontatocliente > 39 AND idcontatocliente < 50;
+	DELETE FROM cliente_contato WHERE idcontatocliente = 42;
+	SELECT * FROM cliente_contato WHERE idcontatocliente > 39 AND idcontatocliente < 50;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%202.1.PNG)
 
-	DELETE FROM cliente_contato WHERE idcontatocliente = 66; SELECT * FROM cliente_contato WHERE idcontatocliente >= 60 AND idcontatocliente <= 70;
+	DELETE FROM cliente_contato WHERE idcontatocliente = 66;
+	SELECT * FROM cliente_contato WHERE idcontatocliente >= 60 AND idcontatocliente <= 70;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%203.1.PNG)
 
-	DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 6; SELECT * FROM pontovenda_contato WHERE idcontatopontovenda < 10;
+	DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 6;
+	SELECT * FROM pontovenda_contato WHERE idcontatopontovenda < 10;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%204.1.PNG)
 
 
-	DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 8; SELECT * FROM pontovenda_contato WHERE idcontatopontovenda > 5;
+	DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 8;
+	SELECT * FROM pontovenda_contato WHERE idcontatopontovenda > 5;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%205.1.PNG)
 
-	DELETE FROM lote WHERE idlote = 3; SELECT * FROM lote WHERE idlote < 10;	
+	DELETE FROM lote WHERE idlote = 3;
+	SELECT * FROM lote WHERE idlote < 10;	
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%206.1.PNG)
 
-	DELETE FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 5 AND horario = '18:00'; SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal >= 4;
+	DELETE FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 5 AND horario = '18:00';
+	SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal >= 4;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%207.1.PNG)
 
 
