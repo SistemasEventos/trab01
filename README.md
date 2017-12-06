@@ -572,6 +572,9 @@ Encontramos algumas dificuldades na hora de realizar o trabalho, tais como:
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
     
+    Grupo que realizou o restore do banco de dados
+    Mapa de Ocorrencias: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
+    
 >## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
     
 ### OBSERVAÇÕES IMPORTANTES
