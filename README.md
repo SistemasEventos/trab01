@@ -294,10 +294,10 @@ tipo: Campo que armazena o tipo de contato do cliente. Ex.: Facebook, telefone, 
 Imagens dos Select de todas as tabelas do sistema
 
 
-SELECT * FROM classificacao;
+	SELECT * FROM classificacao;
 ![Alt text](https://image.ibb.co/jpYSyG/1.png)
 
-SELECT * FROM genero;
+	SELECT * FROM genero;
 ![Alt text](https://image.ibb.co/mcpd5w/2.png)
 
 SELECT * FROM pagamento;
