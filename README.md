@@ -572,7 +572,7 @@ Imagens das subconsultas realizadas
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
     
-![Link do arquivo.backup do banco de dados]() 
+![Link do arquivo.backup do banco de dados](https://github.com/SistemasEventos/trab01/blob/master/SistemaEventos_DataBase.backup) 
     
     Grupo que realizou o restore do banco de dados
     Mapa de Ocorrencias: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
