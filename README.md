@@ -295,184 +295,184 @@ Imagens dos Select de todas as tabelas do sistema
 
 
 	SELECT * FROM classificacao;
-![Alt text](https://image.ibb.co/jpYSyG/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/1.PNG)
 
 	SELECT * FROM genero;
-![Alt text](https://image.ibb.co/mcpd5w/2.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/2.PNG)
 
 	SELECT * FROM pagamento;
-![Alt text](https://image.ibb.co/k1cLJG/3.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/3.PNG)
 
 	SELECT * FROM eventossimultaneos;
-![Alt text](https://image.ibb.co/bX85kw/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/4.PNG)
 
 	SELECT * FROM periodo;
-![Alt text](https://image.ibb.co/nhTSyG/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/5.PNG)
 
 	SELECT * FROM estado;
-![Alt text](https://image.ibb.co/knVJ5w/6.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/6.PNG)
 
 	SELECT * FROM cidade;
-![Alt text](https://image.ibb.co/hroSyG/7.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/7.PNG)
 
 	SELECT * FROM bairro;
-![Alt text](https://image.ibb.co/fiiGsb/8.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/8.PNG)
 
 	SELECT * FROM sexo;
-![Alt text](https://image.ibb.co/msKBQw/9.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/9.PNG)
 
 	SELECT * FROM cliente;
-![Alt text](https://image.ibb.co/h2SWQw/10.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/10.PNG)
 
 	SELECT * FROM gratis;
-![Alt text](https://image.ibb.co/n49NXb/11.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/11.PNG)
 
 	SELECT * FROM premium;
-![Alt text](https://image.ibb.co/hDGfJG/12.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/12.PNG)
 
 	SELECT * FROM fisica;
-![Alt text](https://image.ibb.co/gxsLJG/13.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/13.PNG)
 
 	SELECT * FROM juridica;
-![Alt text](https://image.ibb.co/evxWQw/14.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/14.PNG)
 
 	SELECT * FROM contrato;
-![Alt text](https://image.ibb.co/eZKd5w/15.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/15.PNG)
 
 	SELECT * FROM cliente_contato;
-![Alt text](https://image.ibb.co/dACLJG/16.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/16.PNG)
 
 	SELECT * FROM evento;
-![Alt text](https://image.ibb.co/nBBfJG/17.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/17.PNG)
 
 	SELECT * FROM ingresso;
-![Alt text](https://image.ibb.co/hx85kw/18.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/18.PNG)
 
 	SELECT * FROM lote;
-![Alt text](https://image.ibb.co/eGs9Cb/19.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/19.PNG)
 
 	SELECT * FROM evento_genero_possui;
-![Alt text](https://image.ibb.co/itgQkw/20.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/20.PNG)
 
 	SELECT * FROM localizacao;
-![Alt text](https://image.ibb.co/jJLJ5w/21.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/21.PNG)
 
 	SELECT * FROM pontovenda;
-![Alt text](https://image.ibb.co/h8wEdG/22.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/22.PNG)
 
 	SELECT * FROM evento_local_acontece;
-![Alt text](https://image.ibb.co/dJ0wsb/23.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/23.PNG)
 
 	SELECT * FROM realizacao;
-![Alt text](https://image.ibb.co/c9PBQw/24.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/24.PNG)
 
 	SELECT * FROM evento_pontosvendas_possui;
-![Alt text](https://image.ibb.co/gQZZdG/25.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/25.PNG)
 
 	SELECT * FROM pontovenda_contato;
-![Alt text](https://image.ibb.co/i7eNXb/26.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/26.PNG)
 
 	SELECT * FROM favorita_gratis_favorita;
-![Alt text](https://image.ibb.co/dr4BQw/27.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/27.PNG)
 
 	SELECT * FROM tipocontato;
-![Alt text](https://image.ibb.co/i1FJ5w/28.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.1_Consulta_Todas_Tabelas/28.PNG)
 
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
      
-	![Link do Script para as consultas com filtros where](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_Where.sql)
+![Link do Script para as consultas com filtros where](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_Where.sql)
 
-	Imagens das consultas com filtro where
+Imagens das consultas com filtro where
 
 	SELECT * FROM cliente WHERE iduser > 10;
-![Alt text](https://image.ibb.co/dc5zdG/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.2_Consultas_FiltroWhere/1.PNG)
 
 	SELECT nome, data_nascimento_abertura FROM cliente WHERE fk_sexo_idsexo = 1; /* 1 = masculino */
-![Alt text](https://image.ibb.co/ffm5JG/2.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.2_Consultas_FiltroWhere/2.PNG)
 
 	SELECT nome, userlogin FROM cliente WHERE fk_sexo_idsexo = 3; /* Usuários que são empresas */
-![Alt text](https://image.ibb.co/enJwQw/3.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.2_Consultas_FiltroWhere/3.PNG)
 
 	SELECT fk_premium_fk_cliente_iduser, datainicial FROM contrato WHERE fk_periodo_idperiodo = 4; /* Clientes que assinam por três anos */
-![Alt text](https://image.ibb.co/epqXyG/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.2_Consultas_FiltroWhere/4.PNG)
 
 	SELECT * FROM evento WHERE data_divulgacao > '2017-10-01';
-![Alt text](https://image.ibb.co/mW21sb/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.2_Consultas_FiltroWhere/5.PNG)
 
 	SELECT numero, cep, rua FROM localizacao WHERE fk_cidade_idcidade = 2; /* locais situados em Vitória */
-![Alt text](https://image.ibb.co/hnAbQw/6.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.2_Consultas_FiltroWhere/6.PNG)
 
 	SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 2; /* Contatos que tem facebook */
-![Alt text](https://image.ibb.co/eiknXb/7.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.2_Consultas_FiltroWhere/7.PNG)
 
 	SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 1; /* Contatos que tem telefone */
-![Alt text](https://image.ibb.co/hDcO5w/8.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.2_Consultas_FiltroWhere/8.PNG)
 
 
-	#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
+#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 6)
 
-	![Link do Script para as consultas com operadores logicos, aritmeticos e campos renomeados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_ope.Logico_Aritmetico_camp.renomeados.sql)
+![Link do Script para as consultas com operadores logicos, aritmeticos e campos renomeados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_ope.Logico_Aritmetico_camp.renomeados.sql)
 
-	Imagens das consultas com operadores logicos, aritmeticos e campos renomeados
+Imagens das consultas com operadores logicos, aritmeticos e campos renomeados
 
 	SELECT nome, userlogin FROM cliente WHERE fk_sexo_idsexo = 2 OR fk_sexo_idsexo = 3; /* Pegando onde o sexo é feminino e empresa */
-![Alt text](https://image.ibb.co/eiJxhb/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados/1.PNG)
 
 	SELECT iduser, nome, userlogin FROM cliente WHERE data_nascimento_abertura < '1987-01-01' AND fk_sexo_idsexo = 3;
-![Alt text](https://image.ibb.co/g98xhb/2.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados/2.PNG)
 
 	SELECT iduser, nome, data_nascimento_abertura FROM cliente WHERE NOT fk_sexo_idsexo = 3; /* Nao eh empresa */
-![Alt text](https://image.ibb.co/kAsONb/3.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados/3.PNG)
 
 	SELECT fk_ingresso_idingresso, preco+20 AS "preço multa" FROM lote WHERE fk_ingresso_idingresso = 1;
-![Alt text](https://image.ibb.co/iFuETG/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados/4.PNG)
 
 	SELECT fk_ingresso_idingresso, CAST(preco*0.5 AS NUMERIC(5,2)) AS "preço estudante" FROM lote;
-![Alt text](https://image.ibb.co/kgKRaw/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados/5.PNG)
 
 	SELECT fk_ingresso_idingresso, CAST(preco/3 AS NUMERIC(5,2)) AS "Liquidação" FROM lote;
-![Alt text](https://image.ibb.co/mV7CFw/6.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados/6.PNG)
 
 	SELECT descricao AS "Telefone", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato WHERE fk_tipocontato_idtipocontato = 1;
-![Alt text](https://image.ibb.co/h8Ymaw/7.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados/7.PNG)
 
 	SELECT descricao AS "Twitter", fk_cliente_iduser AS "ID Cliente" FROM cliente_contato WHERE fk_tipocontato_idtipocontato = 4;
-![Alt text](https://image.ibb.co/jLURaw/8.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.3_Consultas_Op.logicos_aritmeticos_Camp.renomeados/8.PNG)
 
      
-	#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
+#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 4) <br>
 
-	![Link do Script para as consultas com operador like](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_like.sql)
+![Link do Script para as consultas com operador like](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selects_like.sql)
 
-	Imagens das consultas com operador like
+Imagens das consultas com operador like
 
 	SELECT nome, userlogin FROM cliente WHERE nome LIKE 'C%';
-![Alt text](https://image.ibb.co/cjwxFw/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.4_Consultas_Com_Like/1.PNG)
 
 	SELECT nome, userlogin FROM cliente WHERE userlogin ILIKE '%t%';
-![Alt text](https://image.ibb.co/gadYoG/2.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.4_Consultas_Com_Like/2.PNG)
 
 	SELECT nome, userlogin, iduser FROM cliente WHERE userlogin LIKE '______' AND nome ILIKE '%a';
-![Alt text](https://image.ibb.co/nAhF2b/3.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.4_Consultas_Com_Like/3.PNG)
 
 	SELECT nome AS "Nome do evento", fk_premium_fk_cliente_iduser AS "ID Cliente Premium Responsável" FROM evento WHERE nome LIKE 'A%' AND nome NOT ILIKE '%S';
-![Alt text](https://image.ibb.co/bFchhb/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.4_Consultas_Com_Like/4.PNG)
 
 	SELECT descricao AS "gmail", fk_cliente_iduser AS "ID Cliente" FROM cliente_contat WHERE fk_tipocontato_idtipocontato = 3 AND descricao LIKE '%@gmail%';
-![Alt text](https://image.ibb.co/jrUjvw/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.4_Consultas_Com_Like/5.PNG)
 
 	SELECT descricao AS "hotmail ou outlook", fk_pontovenda_idpontovenda AS "ID Ponto de Venda" FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 3 AND descricao ILIKE '%@hotmail%' OR descricao ILIKE '%@outlook%';
-![Alt text](https://image.ibb.co/cgvPvw/6.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.4_Consultas_Com_Like/6.PNG)
 
 
 	>## Marco de Entrega 03 em: (Data definida no cronograma)<br>
 
 
-	#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
-	![Link do Script para os upgrades e deletes do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/Modelo_Fisico_Update_Del.sql)
+#### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6) <br>
+![Link do Script para os upgrades e deletes do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/Modelo_Fisico_Update_Del.sql)
 
-	Imagens dos updates(atualizações) e deletes (deleções)
+Imagens dos updates(atualizações) e deletes (deleções)
 
 	UPDATE cliente_contato SET descricao = 'julianlimabarbosa@hotmail.com' WHERE idcontatocliente = 2;
 	UPDATE cliente_contato SET descricao = 'julianlimabarbosa@yahoo.com.br' WHERE idcontatocliente = 101;
@@ -480,53 +480,53 @@ Imagens dos Select de todas as tabelas do sistema
 	UPDATE realizacao SET data = '2017-12-20' WHERE fk_evento_local_acontece_ideventolocal = 10;
 	UPDATE cliente SET nome = 'Gabriele Souza Carvalho' WHERE iduser = 4;
 	UPDATE genero SET tipo = 'Bellezza' WHERE idgenero = 11;
-![Alt text](https://image.ibb.co/g6oCCm/updates.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/updates.PNG)
 
 	SELECT * FROM cliente_contato WHERE idcontatocliente = 101 OR idcontatocliente = 2 OR idcontatocliente = 81;
-![Alt text](https://image.ibb.co/gzhpsm/1_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/1.1.PNG)
 
 	SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 10;
-![Alt text](https://image.ibb.co/eHrhCm/2_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/2.1.PNG)
 
 	SELECT * FROM cliente WHERE iduser = 4;
-![Alt text](https://image.ibb.co/c12YJR/3_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/3.1.PNG)
 
 	SELECT * FROM genero WHERE idgenero = 11;
-![Alt text](https://image.ibb.co/dxfW56/4_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/4.1.PNG)
 
 	DELETE FROM cliente_contato WHERE idcontatocliente = 7; SELECT * FROM cliente_contato;
-![Alt text](https://image.ibb.co/iFaaXm/delete_1_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%201.1.PNG)
 
 	DELETE FROM cliente_contato WHERE idcontatocliente = 42; SELECT * FROM cliente_contato WHERE idcontatocliente > 39 AND idcontatocliente < 50;
-![Alt text](https://image.ibb.co/gr3Usm/delete_2_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%202.1.PNG)
 
 	DELETE FROM cliente_contato WHERE idcontatocliente = 66; SELECT * FROM cliente_contato WHERE idcontatocliente >= 60 AND idcontatocliente <= 70;
-![Alt text](https://image.ibb.co/mHfW56/delete_3_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%203.1.PNG)
 
 	DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 6; SELECT * FROM pontovenda_contato WHERE idcontatopontovenda < 10;
-![Alt text](https://image.ibb.co/bwOOJR/delete4_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%204.1.PNG)
 
 
 	DELETE FROM pontovenda_contato WHERE idcontatopontovenda = 8; SELECT * FROM pontovenda_contato WHERE idcontatopontovenda > 5;
-![Alt text](https://image.ibb.co/gHOesm/delete_5_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%205.1.PNG)
 
 	DELETE FROM lote WHERE idlote = 3; SELECT * FROM lote WHERE idlote < 10;	
-![Alt text](https://image.ibb.co/iTniJR/delete_6_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%206.1.PNG)
 
 	DELETE FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 5 AND horario = '18:00'; SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal >= 4;
-![Alt text](https://image.ibb.co/njmzsm/delete_7_1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/delete%207.1.PNG)
 
 
-	#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
+#### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
 	
-	![Link do Script para a junção e ordenação do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_innerJoin_OrderBy.sql)       
+![Link do Script para a junção e ordenação do banco de dados](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_innerJoin_OrderBy.sql)       
 
-	Imagens dos inner join e order by
+Imagens dos inner join e order by
 
 	SELECT nome, userlogin, sexo.tipo FROM cliente
 	INNER JOIN sexo ON(cliente.fk_sexo_idsexo = sexo.idsexo)
 	ORDER BY nome;
-![Alt text](https://image.ibb.co/jF0yk6/6.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.6_innerJoin_orderBy/1.PNG)
 
 	SELECT cliente.nome AS "Cliente interessado", evento.nome AS "Evento" FROM favorita_gratis_favorita
 	INNER JOIN evento ON(evento.idevento = favorita_gratis_favorita.fk_evento_idevento)
@@ -569,11 +569,11 @@ Imagens dos Select de todas as tabelas do sistema
 	![Alt text](https://image.ibb.co/f5rhCm/1.png)
 
 	   
-	#### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
+#### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
 
-	![Link do Script para o group by e funções de agrupamento](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_groupBy_funcoesAgrupamento.sql)
+![Link do Script para o group by e funções de agrupamento](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_groupBy_funcoesAgrupamento.sql)
 
-	Imagens de group by e funções de agrupamento
+Imagens de group by e funções de agrupamento
 
 	SELECT sexo.tipo AS "Sexo", COUNT(*) AS "Quantidade de clientes" FROM cliente
 	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
@@ -634,11 +634,11 @@ Imagens dos Select de todas as tabelas do sistema
 	ORDER BY cliente.nome;
 ![Alt text](https://image.ibb.co/bK5Ga6/1.png)
 
-	#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+#### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
-	![Link do Script de left e right join](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_left_right_join.sql)
+![Link do Script de left e right join](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_left_right_join.sql)
 
-	Imagens de right e left join
+Imagens de right e left join
 	SELECT nome_ponto, cidade.local, bairro.local, rua, numero FROM localizacao
 	LEFT OUTER JOIN pontovenda ON(pontovenda.fk_localizacao_idlocal = localizacao.idlocal)
 	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
@@ -676,9 +676,9 @@ Imagens dos Select de todas as tabelas do sistema
 	ORDER BY fk_cliente_iduser;
 ![Alt text](https://image.ibb.co/iA8LQG/5.png)
 
-	#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+#### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
 
-	![Link do Script de self join e view](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selfJoin_view.sql)
+![Link do Script de self join e view](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_selfJoin_view.sql)
 
 Imagens de self join e view
 
@@ -751,11 +751,11 @@ Imagens de self join e view
 	SELECT * FROM evento_ingresso_lote;
 ![Alt text](https://image.ibb.co/j56rzb/1.png)
 
-	#### 9.10	SUBCONSULTAS (Mínimo 3)<br>
+#### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
-	![Link do Script de subconsultas](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_subconsultas.sql)
+![Link do Script de subconsultas](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_subconsultas.sql)
 
-	Imagens das subconsultas realizadas
+Imagens das subconsultas realizadas
 	SELECT nome AS "Cliente gratis", userlogin, data_nascimento_abertura AS "data de nascimento",
 	EXTRACT(YEAR FROM age(data_nascimento_abertura)) AS idade, tipo AS "sexo"
 	FROM cliente
@@ -844,10 +844,7 @@ Imagens de self join e view
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
     
-	![Link do arquivo.backup do banco de dados](https://github.com/SistemasEventos/trab01/blob/master/SistemaEventos_DataBase.backup) 
-    
-    Grupo que realizou o restore do banco de dados
-    Mapa de Ocorrencias: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
+![Link do arquivo.backup do banco de dados](https://github.com/SistemasEventos/trab01/blob/master/SistemaEventos_DataBase.backup) 
     
 	>## Marco de Entrega 04/Entrega Final em: (Data definida no cronograma)<br>
     
