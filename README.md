@@ -474,6 +474,7 @@ Imagens das consultas com operador like
 
 Imagens dos updates(atualizações) e deletes (deleções)
 
+	-- Todos os updates escolhidos para o banco
 	UPDATE cliente_contato SET descricao = 'julianlimabarbosa@hotmail.com' WHERE idcontatocliente = 2;
 	UPDATE cliente_contato SET descricao = 'julianlimabarbosa@yahoo.com.br' WHERE idcontatocliente = 101;
 	UPDATE cliente_contato SET descricao = '27999562314' WHERE idcontatocliente = 81;
@@ -482,15 +483,19 @@ Imagens dos updates(atualizações) e deletes (deleções)
 	UPDATE genero SET tipo = 'Bellezza' WHERE idgenero = 11;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/updates.PNG)
 
+	-- Selecao dos 3 primeiros updates
 	SELECT * FROM cliente_contato WHERE idcontatocliente = 101 OR idcontatocliente = 2 OR idcontatocliente = 81;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/1.1.PNG)
-
+	
+	-- Selecao do quarto update
 	SELECT * FROM realizacao WHERE fk_evento_local_acontece_ideventolocal = 10;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/2.1.PNG)
 
+	-- Selecao do quinto update
 	SELECT * FROM cliente WHERE iduser = 4;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/3.1.PNG)
-
+	
+	-- Selecao do sexto update
 	SELECT * FROM genero WHERE idgenero = 11;
 ![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.5_updates_deletes/4.1.PNG)
 
