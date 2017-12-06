@@ -766,6 +766,7 @@ Imagens de self join e view
 ![Link do Script de subconsultas](https://raw.githubusercontent.com/SistemasEventos/trab01/master/SQL/ModeloFisico_subconsultas.sql)
 
 Imagens das subconsultas realizadas
+	
 	SELECT nome AS "Cliente gratis", userlogin, data_nascimento_abertura AS "data de nascimento",
 	EXTRACT(YEAR FROM age(data_nascimento_abertura)) AS idade, tipo AS "sexo"
 	FROM cliente
