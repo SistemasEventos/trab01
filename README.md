@@ -552,12 +552,12 @@ Imagens das subconsultas realizadas
         
 ### 12   DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
-Encontramos algumas dificuldades na hora de realizar o trabalho, tais como:
-1. Criação do modelo conceitual, em especial no raciocinio lógico na criação do modelo para não ter nenhuma falha;
-2. Queries de DELETE e UPDATE pois temos que conhecer bem o modelo o que requer atenção;
-3. Queries de JOIN, principalmente o INNER JOIN;
-4. Decisões de projeto, pois define pontos específicos do sistema proposto;
-5. Normalização do projeto, pois tivemos que dividir as tabelas para que não houvesse redundância, anomalias e afins;
+	Encontramos algumas dificuldades na hora de realizar o trabalho, tais como:
+	1. Criação do modelo conceitual, em especial no raciocinio lógico na criação do modelo para não ter nenhuma falha;
+	2. Queries de DELETE e UPDATE pois temos que conhecer bem o modelo o que requer atenção;
+	3. Queries de JOIN, principalmente o INNER JOIN;
+	4. Decisões de projeto, pois define pontos específicos do sistema proposto;
+	5. Normalização do projeto, pois tivemos que dividir as tabelas para que não houvesse redundância, anomalias e afins;
 
 ### 13   TRABALHO DE MINERAÇÃO DE DADOS
         a) captura das informaçõs
@@ -571,6 +571,8 @@ Encontramos algumas dificuldades na hora de realizar o trabalho, tais como:
         (Em Dump Options #1 Habilitar opções Don't Save Owner e Privilege)
     b) antes de postar o arquivo no git o mesmo deve ser testado/restaurado por outro grupo de alunos/dupla
     c) informar aqui o grupo de alunos/dupla que realizou o teste.
+    
+![Link do arquivo.backup do banco de dados]() 
     
     Grupo que realizou o restore do banco de dados
     Mapa de Ocorrencias: Caio Kinnup, Lucas Erlacher e Tarcísio Bruni
