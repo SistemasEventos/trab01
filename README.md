@@ -293,60 +293,89 @@ tipo: Campo que armazena o tipo de contato do cliente. Ex.: Facebook, telefone, 
 
 Imagens dos Select de todas as tabelas do sistema
 
+
+SELECT * FROM classificacao;
 ![Alt text](https://image.ibb.co/jpYSyG/1.png)
 
+SELECT * FROM genero;
 ![Alt text](https://image.ibb.co/mcpd5w/2.png)
 
+SELECT * FROM pagamento;
 ![Alt text](https://image.ibb.co/k1cLJG/3.png)
 
+SELECT * FROM eventossimultaneos;
 ![Alt text](https://image.ibb.co/bX85kw/4.png)
 
+SELECT * FROM periodo;
 ![Alt text](https://image.ibb.co/nhTSyG/5.png)
 
+SELECT * FROM estado;
 ![Alt text](https://image.ibb.co/knVJ5w/6.png)
 
+SELECT * FROM cidade;
 ![Alt text](https://image.ibb.co/hroSyG/7.png)
 
+SELECT * FROM bairro;
 ![Alt text](https://image.ibb.co/fiiGsb/8.png)
 
+SELECT * FROM sexo;
 ![Alt text](https://image.ibb.co/msKBQw/9.png)
 
+SELECT * FROM cliente;
 ![Alt text](https://image.ibb.co/h2SWQw/10.png)
 
+SELECT * FROM gratis;
 ![Alt text](https://image.ibb.co/n49NXb/11.png)
 
+SELECT * FROM premium;
 ![Alt text](https://image.ibb.co/hDGfJG/12.png)
 
+SELECT * FROM fisica;
 ![Alt text](https://image.ibb.co/gxsLJG/13.png)
 
+SELECT * FROM juridica;
 ![Alt text](https://image.ibb.co/evxWQw/14.png)
 
+SELECT * FROM contrato;
 ![Alt text](https://image.ibb.co/eZKd5w/15.png)
 
+SELECT * FROM cliente_contato;
 ![Alt text](https://image.ibb.co/dACLJG/16.png)
 
+SELECT * FROM evento;
 ![Alt text](https://image.ibb.co/nBBfJG/17.png)
 
+SELECT * FROM ingresso;
 ![Alt text](https://image.ibb.co/hx85kw/18.png)
 
+SELECT * FROM lote;
 ![Alt text](https://image.ibb.co/eGs9Cb/19.png)
 
+SELECT * FROM evento_genero_possui;
 ![Alt text](https://image.ibb.co/itgQkw/20.png)
 
+SELECT * FROM localizacao;
 ![Alt text](https://image.ibb.co/jJLJ5w/21.png)
 
+SELECT * FROM pontovenda;
 ![Alt text](https://image.ibb.co/h8wEdG/22.png)
 
+SELECT * FROM evento_local_acontece;
 ![Alt text](https://image.ibb.co/dJ0wsb/23.png)
 
+SELECT * FROM realizacao;
 ![Alt text](https://image.ibb.co/c9PBQw/24.png)
 
+SELECT * FROM evento_pontosvendas_possui;
 ![Alt text](https://image.ibb.co/gQZZdG/25.png)
 
+SELECT * FROM pontovenda_contato;
 ![Alt text](https://image.ibb.co/i7eNXb/26.png)
 
+SELECT * FROM favorita_gratis_favorita;
 ![Alt text](https://image.ibb.co/dr4BQw/27.png)
 
+SELECT * FROM tipocontato;
 ![Alt text](https://image.ibb.co/i1FJ5w/28.png)
 
 
@@ -356,20 +385,28 @@ Imagens dos Select de todas as tabelas do sistema
 
 Imagens das consultas com filtro where
 
+SELECT * FROM cliente WHERE iduser > 10;
 ![Alt text](https://image.ibb.co/dc5zdG/1.png)
 
+SELECT nome, data_nascimento_abertura FROM cliente WHERE fk_sexo_idsexo = 1; /* 1 = masculino */
 ![Alt text](https://image.ibb.co/ffm5JG/2.png)
 
+SELECT nome, userlogin FROM cliente WHERE fk_sexo_idsexo = 3; /* Usuários que são empresas */
 ![Alt text](https://image.ibb.co/enJwQw/3.png)
 
+SELECT fk_premium_fk_cliente_iduser, datainicial FROM contrato WHERE fk_periodo_idperiodo = 4; /* Clientes que assinam por três anos */
 ![Alt text](https://image.ibb.co/epqXyG/4.png)
 
+SELECT * FROM evento WHERE data_divulgacao > '2017-10-01';
 ![Alt text](https://image.ibb.co/mW21sb/5.png)
 
+SELECT numero, cep, rua FROM localizacao WHERE fk_cidade_idcidade = 2; /* locais situados em Vitória */
 ![Alt text](https://image.ibb.co/hnAbQw/6.png)
 
+SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 2; /* Contatos que tem facebook */
 ![Alt text](https://image.ibb.co/eiknXb/7.png)
 
+SELECT fk_pontovenda_idpontovenda, descricao FROM pontovenda_contato WHERE fk_tipocontato_idtipocontato = 1; /* Contatos que tem telefone */
 ![Alt text](https://image.ibb.co/hDcO5w/8.png)
 
 
