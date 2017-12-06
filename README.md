@@ -533,14 +533,14 @@ Imagens dos inner join e order by
 	INNER JOIN gratis ON(gratis.fk_cliente_iduser = favorita_gratis_favorita.fk_gratis_fk_cliente_iduser)
 	INNER JOIN cliente ON(cliente.iduser = gratis.fk_cliente_iduser)
 	ORDER BY cliente.nome;
-![Alt text](https://image.ibb.co/bZGSdR/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.6_innerJoin_orderBy/2.PNG)
 
 
 	SELECT cliente.nome AS "Cliente Responsavel", evento.nome AS "Evento divulgado" FROM evento
 	INNER JOIN premium ON(premium.fk_cliente_iduser = evento.fk_premium_fk_cliente_iduser)
 	INNER JOIN cliente ON(cliente.iduser = premium.fk_cliente_iduser)
 	ORDER BY cliente.nome;
-![Alt text](https://image.ibb.co/dhAW56/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.6_innerJoin_orderBy/3.PNG)
 
 	SELECT evento.nome AS "Evento", cidade.local AS "Cidade", bairro.local AS "Bairro", rua, numero FROM evento_local_acontece
 	INNER JOIN evento ON(evento.idevento = evento_local_acontece.fk_evento_idevento)
@@ -548,14 +548,14 @@ Imagens dos inner join e order by
 	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
 	INNER JOIN bairro ON(bairro.idbairro = localizacao.fk_bairro_idbairro)
 	ORDER BY evento.nome;
-![Alt text](https://image.ibb.co/b16hCm/3.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.6_innerJoin_orderBy/4.PNG)
 
 
 	SELECT evento.nome, genero.tipo FROM evento_genero_possui
 	INNER JOIN evento ON(evento.idevento = evento_genero_possui.fk_evento_idevento)
 	INNER JOIN genero ON(genero.idgenero = evento_genero_possui.fk_genero_idgenero)
 	ORDER BY genero.tipo DESC, evento.nome;
-![Alt text](https://image.ibb.co/i8UDJR/2.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.6_innerJoin_orderBy/5.PNG)
 
 
 	SELECT cliente.nome AS "Cliente Premium", datainicial, meses AS "Periodo(meses)", quantidade AS "Eventos simultaneos",
@@ -566,7 +566,7 @@ Imagens dos inner join e order by
 	INNER JOIN pagamento ON(pagamento.idpagamento = contrato.fk_pagamento_idpagamento)
 	INNER JOIN eventossimultaneos ON(eventossimultaneos.ideventossimult = contrato.fk_eventossimultaneos_ideventossimult)
 	ORDER BY datainicial DESC, meses DESC, quantidade DESC, forma;
-	![Alt text](https://image.ibb.co/f5rhCm/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.6_innerJoin_orderBy/6.PNG)
 
 	   
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇES DE AGRUPAMENTO (Mínimo 6)<br>
@@ -578,31 +578,31 @@ Imagens de group by e funções de agrupamento
 	SELECT sexo.tipo AS "Sexo", COUNT(*) AS "Quantidade de clientes" FROM cliente
 	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
 	GROUP BY sexo.tipo;
-![Alt text](https://image.ibb.co/fR5hF6/8.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/1.PNG)
 
 	SELECT evento.nome AS "Evento", SUM(lote.quantidade) AS "Total de ingressos" FROM evento
 	INNER JOIN ingresso ON(ingresso.fk_evento_idevento = evento.idevento)
 	INNER JOIN lote ON(lote.fk_ingresso_idingresso = ingresso.idingresso)
 	GROUP BY evento.nome ORDER BY evento.nome;
-![Alt text](https://image.ibb.co/hUmpv6/9.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/2.PNG)
 
 	SELECT pontovenda.nome_ponto AS "Ponto de venda", COUNT(*) AS "Numero de eventos que usam o ponto"
 	FROM pontovenda
 	INNER JOIN evento_pontosvendas_possui ON(evento_pontosvendas_possui.fk_pontovenda_idpontovenda = pontovenda.idpontovenda)
 	GROUP BY pontovenda.nome_ponto ORDER BY pontovenda.nome_ponto;
-![Alt text](https://image.ibb.co/h5rdoR/7.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/3.PNG)
 
 
 	SELECT genero.tipo AS "Genero", COUNT(*) AS "Quantidade eventos" FROM genero
 	INNER JOIN evento_genero_possui ON(evento_genero_possui.fk_genero_idgenero = genero.idgenero)
 	GROUP BY genero.tipo ORDER BY genero.tipo DESC;
-![Alt text](https://image.ibb.co/b982F6/6.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/4.PNG)
 
 	SELECT cidade.local AS "Cidade", COUNT(*) AS "Quantidade eventos" FROM cidade
 	INNER JOIN localizacao ON(localizacao.fk_cidade_idcidade = cidade.idcidade)
 	INNER JOIN evento_local_acontece ON(evento_local_acontece.fk_localizacao_idlocal = localizacao.idlocal)
 	GROUP BY cidade.local ORDER BY cidade.local;
-![Alt text](https://image.ibb.co/eMGpv6/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/5.PNG)
 
 
 	SELECT cliente.iduser AS "ID Cliente", cliente.nome AS "Nome do cliente", sexo.tipo AS "Sexo", COUNT(*) AS "Quantidade de contatos registrados"
@@ -610,21 +610,21 @@ Imagens de group by e funções de agrupamento
 	INNER JOIN cliente_contato ON(cliente_contato.fk_cliente_iduser = cliente.iduser)
 	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
 	GROUP BY cliente.iduser, cliente.nome, sexo.tipo ORDER BY cliente.nome;
-![Alt text](https://image.ibb.co/dB3r8R/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/6.PNG)
 
 
 	SELECT pagamento.forma AS "Forma de pagamento", COUNT(*) AS "Quantidade de vezes utilizados"
 	FROM pagamento
 	INNER JOIN contrato ON(contrato.fk_pagamento_idpagamento = pagamento.idpagamento)
 	GROUP BY pagamento.forma ORDER BY COUNT(*) DESC;
-![Alt text](https://image.ibb.co/nAKL2m/3.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/7.PNG)
 
 	SELECT idpontovenda AS "ID ponto de venda", nome_ponto AS "Nome do ponto", COUNT(*) AS "Quantidade de contatos registrados"
 	FROM pontovenda
 	INNER JOIN pontovenda_contato ON(pontovenda_contato.fk_pontovenda_idpontovenda = pontovenda.idpontovenda)
 	GROUP BY idpontovenda, nome_ponto HAVING COUNT(*) > 1
 	ORDER BY idpontovenda;
-![Alt text](https://image.ibb.co/nGiPTR/2.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/8.PNG)
 
 	SELECT cliente.nome AS "Cliente Gratis", COUNT(*) AS "Quantidade de eventos favoritados" FROM gratis
 	INNER JOIN cliente ON(cliente.iduser = gratis.fk_cliente_iduser)
@@ -632,7 +632,7 @@ Imagens de group by e funções de agrupamento
 	WHERE cliente.fk_sexo_idsexo = 1
 	GROUP BY cliente.nome HAVING cliente.nome ILIKE '%a%' AND COUNT(*) >= 2
 	ORDER BY cliente.nome;
-![Alt text](https://image.ibb.co/bK5Ga6/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.7_groupBy_funcoesAgrupamento/9.PNG)
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 
@@ -644,7 +644,7 @@ Imagens de right e left join
 	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
 	INNER JOIN bairro ON(bairro.idbairro = localizacao.fk_bairro_idbairro)
 	ORDER BY nome_ponto;
-![Alt text](https://image.ibb.co/fmR75G/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.8_right_left_join/1.PNG)
 
 	SELECT nome, cidade.local, bairro.local, rua, numero FROM evento_local_acontece
 	INNER JOIN evento ON(evento.idevento = evento_local_acontece.fk_evento_idevento)
@@ -652,29 +652,26 @@ Imagens de right e left join
 	INNER JOIN cidade ON(cidade.idcidade = localizacao.fk_cidade_idcidade)
 	INNER JOIN bairro ON(bairro.idbairro = localizacao.fk_bairro_idbairro)
 	ORDER BY nome;
-![Alt text](https://image.ibb.co/hCG75G/2.png)
-
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.8_right_left_join/2.PNG)
 
 	SELECT fk_cliente_iduser AS "ID cliente gratis" ,nome,userlogin,tipo AS "sexo" FROM cliente
 	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
 	LEFT OUTER JOIN gratis ON(gratis.fk_cliente_iduser = cliente.iduser)
 	ORDER BY fk_cliente_iduser;
-![Alt text](https://image.ibb.co/eXmUKb/3.png)
-
-
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.8_right_left_join/3.PNG)
 
 	SELECT fk_cliente_iduser AS "ID cliente premium" ,nome,userlogin,tipo AS "sexo" FROM cliente
 	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
 	LEFT OUTER JOIN premium ON(premium.fk_cliente_iduser = cliente.iduser)
 	ORDER BY fk_cliente_iduser;
-![Alt text](https://image.ibb.co/f3QdCw/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.8_right_left_join/4.PNG)
 
 	SELECT fk_cliente_iduser AS "ID cliente premium pessoa fisica" ,nome,userlogin,tipo AS "sexo" FROM cliente
 	INNER JOIN sexo ON(sexo.idsexo = cliente.fk_sexo_idsexo)
 	INNER JOIN premium ON(premium.fk_cliente_iduser = cliente.iduser)
 	RIGHT OUTER JOIN fisica ON(premium.fk_cliente_iduser = fisica.fk_premium_fk_cliente_iduser)
 	ORDER BY fk_cliente_iduser;
-![Alt text](https://image.ibb.co/iA8LQG/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.8_right_left_join/5.PNG)
 
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
 
@@ -689,7 +686,7 @@ Imagens de self join e view
 	INNER JOIN gratis ON(gratis.fk_cliente_iduser = cliente.iduser);
 
 	SELECT * FROM clientes_gratis;
-![Alt text](https://image.ibb.co/bTO4Kb/6.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.9_selfJoin_view/1.PNG)
 
 	CREATE VIEW clientes_premium AS
 	SELECT nome, userlogin AS login, data_nascimento_abertura AS "data de abertura ou abertura", sexo.tipo AS sexo 
@@ -698,7 +695,7 @@ Imagens de self join e view
 	INNER JOIN premium ON(premium.fk_cliente_iduser = cliente.iduser);
 
 	SELECT * FROM clientes_premium ORDER BY nome;
-![Alt text](https://image.ibb.co/g4rrzb/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.9_selfJoin_view/2.PNG)
 
 	CREATE VIEW contratos_premium AS
 	SELECT cliente.nome AS "Cliente Premium", datainicial AS "Data inicial", meses AS "Periodo(meses)", 
@@ -711,7 +708,7 @@ Imagens de self join e view
 	ORDER BY datainicial DESC, meses DESC, quantidade DESC, forma;
 
 	SELECT * FROM contratos_premium;
-![Alt text](https://image.ibb.co/d5q6Xw/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.9_selfJoin_view/3.PNG)
 
 
 	CREATE VIEW eventos_localizacao_cliente_responsavel AS
@@ -727,7 +724,7 @@ Imagens de self join e view
 	ORDER BY evento.nome;
 
 	SELECT * FROM eventos_localizacao_cliente_responsavel;
-![Alt text](https://image.ibb.co/jrH9kG/3.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.9_selfJoin_view/4.PNG)
 
 
 	CREATE VIEW eventos_favoritados_pelos_clientes_gratis AS
@@ -738,7 +735,7 @@ Imagens de self join e view
 	ORDER BY cliente.nome;
 
 	SELECT * FROM eventos_favoritados_pelos_clientes_gratis;
-![Alt text](https://image.ibb.co/fxQjKb/2.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.9_selfJoin_view/5.PNG)
 
 	CREATE VIEW evento_ingresso_lote AS
 	SELECT evento.nome AS "Evento", classificacao.tipo AS "Classificacao", numero AS "Numero do lote",
@@ -749,7 +746,7 @@ Imagens de self join e view
 	ORDER BY evento.nome, numero;
 
 	SELECT * FROM evento_ingresso_lote;
-![Alt text](https://image.ibb.co/j56rzb/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.9_selfJoin_view/6.PNG)
 
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
@@ -763,7 +760,7 @@ Imagens das subconsultas realizadas
 	WHERE cliente.iduser IN (
 	    SELECT fk_cliente_iduser FROM gratis
 	) ORDER BY idade DESC, sexo, nome;
-![Alt text](https://image.ibb.co/mKv9Kb/6.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.10_subconsultas/1.PNG)
 
 	SELECT nome AS "Cliente premium pessoa fisica", userlogin, data_nascimento_abertura AS "data de nascimento",
 	date_part('year', age(data_nascimento_abertura)) AS idade, tipo AS "sexo"
@@ -772,7 +769,7 @@ Imagens das subconsultas realizadas
 	WHERE cliente.iduser IN (
 	    SELECT fk_premium_fk_cliente_iduser FROM fisica
 	) ORDER BY idade DESC, sexo, nome;
-![Alt text](https://image.ibb.co/cQy75G/5.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.10_subconsultas/2.PNG)
 
 
 	SELECT nome AS "Cliente premium pessoa juridica", userlogin, data_nascimento_abertura AS "data de nascimento",
@@ -781,14 +778,14 @@ Imagens das subconsultas realizadas
 	WHERE cliente.iduser IN (
 	    SELECT fk_premium_fk_cliente_iduser FROM juridica
 	) ORDER BY idade DESC, nome;
-![Alt text](https://image.ibb.co/g5ZEkG/4.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.10_subconsultas/3.PNG)
 
 	SELECT nome AS "Cliente gratis", descricao AS "Contato" FROM cliente
 	INNER JOIN cliente_contato ON(cliente_contato.fk_cliente_iduser = cliente.iduser)
 	WHERE cliente_contato.fk_cliente_iduser NOT IN (
 	    SELECT fk_cliente_iduser FROM premium
 	) ORDER BY nome;
-![Alt text](https://image.ibb.co/fodJCw/3.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.10_subconsultas/4.PNG)
 
 	SELECT nome AS "Cliente premium", descricao AS "Contatos(Somente Telefone e Twitter)" FROM cliente
 	INNER JOIN cliente_contato ON(cliente_contato.fk_cliente_iduser = cliente.iduser)
@@ -799,7 +796,7 @@ Imagens das subconsultas realizadas
 	    SELECT idtipocontato FROM tipocontato
 	    WHERE idtipocontato = 1 OR idtipocontato = 4
 	) ORDER BY nome, descricao;
-![Alt text](https://image.ibb.co/jdMukG/2.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.10_subconsultas/5.PNG)
 
 	SELECT nome_ponto AS "Ponto de venda", cep AS "CEP", uf AS "Estado",
 	cidade.local AS "Cidade", bairro.local AS "Bairro" FROM pontovenda
@@ -813,7 +810,7 @@ Imagens das subconsultas realizadas
 	localizacao.fk_cidade_idcidade IN (
 	  SELECT idcidade FROM cidade WHERE idcidade <> 2 /* Nao esta em Vitoria */
 	) ORDER BY nome_ponto;
-![Alt text](https://image.ibb.co/gZ7BXw/1.png)
+![Alt text](https://github.com/SistemasEventos/trab01/blob/master/images/9.10_subconsultas/6.PNG)
 
 	### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 	### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
